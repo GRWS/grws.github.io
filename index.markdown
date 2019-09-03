@@ -14,10 +14,6 @@ Check out the NYC Commute map I created:
 
 ![NYC_commute_pic](https://user-images.githubusercontent.com/51925289/64148446-34901a80-cdd8-11e9-8ff0-632cd7423393.JPG)
 
-<div> 
-    <img src="{{ '/images/NYC_commute_pic.jpg' | absolute_url }}" alt="NYC Commute" style="width:100%;" >
-</div>
-
 The link to image above is here [NYC Commute Map][NYC_commute]
 
 
