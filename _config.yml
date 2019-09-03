@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Map Example
-email: none@example.com
+## email: none@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Editing this line for the new site here
   line in _config.yml. It will appear in your document head meta (for
