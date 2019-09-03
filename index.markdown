@@ -13,7 +13,7 @@ We'll see if it makes a difference or not. I'd like to find out!
 Check out the NYC Commute map I created:
 
 <div> 
-    <img src="{{ '/images/NYC_commute_pic.jpg' | absolute_url }}" alt="NYC commute" style="width:100%;" >
+    <img src="{{ '/images/NYC_commute_pic.jpg' | absolute_url }}" alt="NYC_commute_pic" style="width:100%;" >
 </div>
 
 The link to image above is here [NYC Commute Map][NYC_commute]
