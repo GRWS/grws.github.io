@@ -19,3 +19,15 @@ The link to image above is here [NYC Commute Map][NYC_commute]
 
 
 [NYC_commute]: /NYC_commute
+
+
+Now adding some python code and trying to see if it would show the map!
+{% highlight python %}
+import folium
+print('Folium installed and imported!')
+m = folium.Map(location=[45.5236, -122.6750])
+
+m
+{% endhighlight %}
+
+What happened?
