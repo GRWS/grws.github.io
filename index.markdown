@@ -16,6 +16,9 @@ Check out the NYC Commute map I created:
 
 The link to image above is here [NYC Commute Map][NYC_commute]
 
+Plus this one below:
+
+![NYC_commute_pic2](https://user-images.githubusercontent.com/51925289/64222030-a70a0480-ce83-11e9-910d-61fa7f83bc39.JPG)
 
 
 [NYC_commute]: /NYC_commute
