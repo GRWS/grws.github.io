@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title:  Home
+title:  
 ---
 
 # **After Job Offer, Choosing a Neighborhood in New York City**
