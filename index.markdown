@@ -43,6 +43,8 @@ https://developer.foursquare.com/docs/api/venues/explore
 
 
 
+![NYC_rent_prices_image](https://user-images.githubusercontent.com/51925289/64576438-63a11180-d32d-11e9-9613-1537b1494002.png)
+
 Adding more things to this file.
 
 We'll see if it makes a difference or not. I'd like to find out!
