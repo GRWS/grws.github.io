@@ -42,8 +42,8 @@ https://www.google.com/maps/
 https://developer.foursquare.com/docs/api/venues/explore
 
 
-
-![NYC_rent_prices_image](https://user-images.githubusercontent.com/51925289/64576438-63a11180-d32d-11e9-9613-1537b1494002.png)
+Below we can see a chart for rent prices from lower to highest across New York City.
+![nyc_rent_prices](https://user-images.githubusercontent.com/51925289/64576943-a7951600-d32f-11e9-9ba7-00a13ee11d77.png)
 
 Adding more things to this file.
 
