@@ -33,13 +33,13 @@ To complete this project, it was necessary to gather data regarding rent, commut
 <https://streeteasy.com/blog/data-dashboard/>
 
 * The latitude and longitude for the neighborhoods across all five boroughs is available in different file formats, i.e. Derived Shapefile, KMZ and GeoJSON from:
-https://geo.nyu.edu/catalog/nyu_2451_34572
+<https://geo.nyu.edu/catalog/nyu_2451_34572>
 
 * The commute times were collected from Google Maps:
-https://www.google.com/maps/
+<https://www.google.com/maps/>
 
 * Lastly, the Foursquare API was used to find information about the venues location and their popularity among Foursquare users:
-https://developer.foursquare.com/docs/api/venues/explore
+<https://developer.foursquare.com/docs/api/venues/explore>
 
 {% highlight python %}
 ## sorting dataframe in ascending order to generate plot
@@ -56,12 +56,6 @@ df_ct = df_ct.drop(['variable'], axis =1).reset_index(drop=True)
 df_ct.head()
 {% endhighlight %}
 
-Index	Commute Time in Minutes 	Neighborhood 	Borough 	Latitude 	Longitude 	AvgRent
-0 	54 	Bedford Park 	Bronx 	40.870185 	-73.885512 	1550
-1 	58 	Norwood 	Bronx 	40.877224 	-73.879391 	1598
-2 	80 	Williamsbridge 	Bronx 	40.881039 	-73.857446 	1600
-3 	58 	Morris Heights 	Bronx 	40.847898 	-73.919672 	1650
-4 	54 	Woodlawn 	Bronx 	40.898273 	-73.867315 	1650
 
 The figure below shows the average rent prices, from lowest to highest, across different neighborhoods in New York City.
 ![nyc_rent_prices](https://user-images.githubusercontent.com/51925289/64658985-63b51600-d3ee-11e9-83f4-2f3508ab9896.png)
