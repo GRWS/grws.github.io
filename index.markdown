@@ -72,8 +72,6 @@ Also, according to a study performed by the Center for Urban Future in 2014, in 
 
 Due to the wide popularity and accessibility of the subway, and that surface speeds have decreased over time, specially in Manhattan, this project uses the subway as the most consistent and reliable means of commuting. A link to the Mobility Report, from the NYC Department of Transportation discussing these findings can found here:
 
-[Mobility ReportJune 2018 - NYC.gov]
-
 <http://www.nyc.gov/html/dot/downloads/pdf/mobility-report-2018-print.pdf>
 
 Regarding the commute times, they are several online tools which are able to show, on real-time, the time it takes to commute from different city areas, however their accuracy proved to be poor when compared to real-time data from google maps.  It is possible, the these tools were relying on information provided by all kinds of commuting means used in New York City, which include walking, driving or hiring a taxi cab or riding sharing service, biking, bus, subway and, in some cases, ferries. One of such tools can be found via the following link:
