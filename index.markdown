@@ -93,18 +93,9 @@ Also, it is worth noting that the biggest limiting factor for the whole data set
 
 Additionally, as depicted on the Folium library map generated below, by using the longitude and latitude from all the selected neighborhoods, is clear that, with some exceptions, rent prices closer to lower Manhattan's financial district are higher than in other locations within New York City. The map uses color and size to highlight the different ranges for the average rent price in the different neighborhoods.
 
-
-
-
-Adding more things to this file.
-
-We'll see if it makes a difference or not. I'd like to find out!
-
-Check out the NYC Commute map I created:
-
 ![NYC_commute_pic2](https://user-images.githubusercontent.com/51925289/64222030-a70a0480-ce83-11e9-910d-61fa7f83bc39.JPG)
 
-The link to image above is here [NYC Commute Map][NYC_commute]
+The link to the interactive map pictured above is located at [NYC Commute Map][NYC_commute]
 
 [NYC_commute]: /NYC_commute
 
