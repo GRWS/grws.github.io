@@ -30,7 +30,7 @@ Based upon the assumptions given, this project compares average rent prices for 
 To complete this project, it was necessary to gather data regarding rent, commuting times, and most popular venues for each of the neighborhoods in question.  While some of the data was readily available, the commuting times were collected individually from each neighborhood using google maps.  The data sources are listed below.
 
 * Average rental data per neighborhood is available at:
-https://streeteasy.com/blog/data-dashboard/
+<https://streeteasy.com/blog/data-dashboard/>
 
 * The latitude and longitude for the neighborhoods across all five boroughs is available in different file formats, i.e. Derived Shapefile, KMZ and GeoJSON from:
 https://geo.nyu.edu/catalog/nyu_2451_34572
