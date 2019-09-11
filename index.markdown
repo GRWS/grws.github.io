@@ -43,38 +43,25 @@ https://developer.foursquare.com/docs/api/venues/explore
 
 {% highlight python %}
 ## sorting dataframe in ascending order to generate plot
-
 df_ct = df_ct.sort_values('AvgRent')
 
-​
-
 ## Checking types for the merged dataframe
-
 df_ct.dtypes
 
-​
-
 # Changing AvgRent column contents from float to int 
-
 df_ct['AvgRent'] = df_ct['AvgRent'].apply(np.int64)
 
-​
-
 ## Dropping extra column and resetting index for the newly sorted dataframe
-
 df_ct = df_ct.drop(['variable'], axis =1).reset_index(drop=True)
-
-​
-
 df_ct.head()
+{% endhighlight %}
 
-	Commute Time in Minutes 	Neighborhood 	Borough 	Latitude 	Longitude 	AvgRent
+Index	Commute Time in Minutes 	Neighborhood 	Borough 	Latitude 	Longitude 	AvgRent
 0 	54 	Bedford Park 	Bronx 	40.870185 	-73.885512 	1550
 1 	58 	Norwood 	Bronx 	40.877224 	-73.879391 	1598
 2 	80 	Williamsbridge 	Bronx 	40.881039 	-73.857446 	1600
 3 	58 	Morris Heights 	Bronx 	40.847898 	-73.919672 	1650
 4 	54 	Woodlawn 	Bronx 	40.898273 	-73.867315 	1650
-{% endhighlight %}
 
 The figure below shows the average rent prices, from lowest to highest, across different neighborhoods in New York City.
 ![nyc_rent_prices](https://user-images.githubusercontent.com/51925289/64658985-63b51600-d3ee-11e9-83f4-2f3508ab9896.png)
