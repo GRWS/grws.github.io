@@ -42,7 +42,7 @@ https://www.google.com/maps/
 https://developer.foursquare.com/docs/api/venues/explore
 
 
-Below we can see a chart for rent prices from lower to highest across New York City.
+The figure below shows the average rent prices, from lowest to highest, across different neighborhoods in New York City.
 ![nyc_rent_prices](https://user-images.githubusercontent.com/51925289/64658985-63b51600-d3ee-11e9-83f4-2f3508ab9896.png)
 
 
