@@ -100,6 +100,14 @@ The link to the interactive map pictured above is located at [NYC Commute Map][N
 
 [NYC_commute]: /NYC_commute
 
+Adding table below???
+
+|Month|Savings|Spending|
+|--- |--- |--- |
+|January|$100|$900|
+|July|$750|$1000|
+|December|$250|$300|
+|April|$400|$700|
 
 Now adding some python code and trying to see if it would show the map!
 {% highlight python %}
