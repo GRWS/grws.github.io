@@ -117,3 +117,66 @@ permalink: /neighborhood_table/
 |Bronx|Williamsbridge|1600|80|6|
 |Bronx|Throgs Neck|2000|85|11|
 |Queens|Jamaica Estates|1785|85|3|
+
+
+Another table to see how it looks:
+
+
+ 	Borough 	Neighborhood 	AvgRent 	Commute Time in Minutes 	Venue Count
+0 	Manhattan 	Battery Park City 	4493 	9 	100
+1 	Brooklyn 	Brooklyn Heights 	3500 	11 	100
+2 	Brooklyn 	Cobble Hill 	3195 	11 	100
+3 	Manhattan 	Soho 	4850 	12 	100
+4 	Manhattan 	Tribeca 	6295 	12 	100
+5 	Manhattan 	Little Italy 	3763 	12 	100
+6 	Manhattan 	Chinatown 	2675 	13 	100
+7 	Brooklyn 	Boerum Hill 	3395 	19 	90
+8 	Brooklyn 	Dumbo 	4498 	19 	87
+9 	Manhattan 	West Village 	3995 	19 	100
+10 	Manhattan 	Lower East Side 	3438 	19 	62
+11 	Manhattan 	Midtown South 	3923 	21 	100
+12 	Manhattan 	Midtown 	4000 	21 	100
+13 	Manhattan 	Central Park South 	7400 	21 	100
+14 	Brooklyn 	Williamsburg 	3211 	23 	31
+15 	Brooklyn 	Clinton Hill 	2995 	23 	90
+16 	Brooklyn 	Prospect Heights 	2950 	23 	83
+17 	Brooklyn 	Fort Greene 	3300 	24 	77
+18 	Brooklyn 	Gowanus 	2704 	26 	66
+19 	Brooklyn 	Park Slope 	2900 	26 	72
+20 	Manhattan 	East Village 	3400 	27 	100
+21 	Brooklyn 	Carroll Gardens 	2850 	27 	100
+22 	Brooklyn 	Red Hook 	2700 	27 	50
+23 	Manhattan 	Chelsea 	4261 	28 	100
+24 	Manhattan 	Roosevelt Island 	3298 	30 	22
+25 	Manhattan 	Upper West Side 	3500 	30 	100
+26 	Brooklyn 	Flatbush 	2165 	31 	20
+27 	Queens 	Sunnyside 	2000 	32 	44
+28 	Manhattan 	Upper East Side 	2995 	32 	100
+29 	Brooklyn 	Borough Park 	1900 	33 	25
+30 	Brooklyn 	Prospect Lefferts Gardens 	2375 	34 	51
+31 	Brooklyn 	Windsor Terrace 	2700 	34 	25
+32 	Manhattan 	Morningside Heights 	2998 	35 	42
+33 	Brooklyn 	Greenpoint 	2863 	39 	100
+34 	Queens 	Ridgewood 	2500 	39 	40
+35 	Brooklyn 	Midwood 	1900 	39 	14
+36 	Queens 	Woodside 	1900 	39 	79
+37 	Brooklyn 	Sheepshead Bay 	1800 	40 	24
+38 	Brooklyn 	Brownsville 	1950 	40 	19
+39 	Manhattan 	Manhattanville 	2460 	41 	39
+40 	Manhattan 	Washington Heights 	2200 	42 	85
+41 	Brooklyn 	Brighton Beach 	1975 	42 	44
+42 	Brooklyn 	Gravesend 	1750 	42 	28
+43 	Queens 	Long Island City 	3169 	42 	70
+44 	Brooklyn 	Bath Beach 	1680 	43 	45
+45 	Brooklyn 	Bay Ridge 	1975 	43 	87
+46 	Queens 	Astoria 	2200 	44 	100
+47 	Manhattan 	Hamilton Heights 	2550 	44 	60
+48 	Brooklyn 	East Flatbush 	2200 	44 	14
+49 	Brooklyn 	Coney Island 	2075 	45 	14
+50 	Queens 	Forest Hills 	2095 	46 	37
+51 	Bronx 	Melrose 	1750 	48 	26
+52 	Brooklyn 	Kensington 	2200 	48 	38
+53 	Bronx 	Morrisania 	1850 	48 	24
+54 	Queens 	North Corona 	1985 	49 	22
+55 	Queens 	Woodhaven 	1800 	50 	23
+56 	Queens 	Elmhurst 	1890 	50 	80
