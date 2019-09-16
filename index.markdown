@@ -7,41 +7,46 @@ title:  Home
 ---
 
 # **After Job Offer, Choosing a Neighborhood in New York City**
-## **Capstone Project (Week 2)**
 
 ## Table of Contents
-1. [Introduction: Business Problem](#introduction)
+1. [Introduction](#introduction)
 
 2. [Data](#Data)
 
 3. [Methodology](#Methodology)
 
-## 1. Introduction: Business Problem <a name="introduction"></a>
+4. [Results](#Results)
+
+5. [Further Discussion](#Discussion)
+
+6. [Conclussion](#Conclussion)
+
+## 1. Introduction <a name="introduction"></a>
 
 Moving to a different city comes with a number of challenges, and one of the biggest ones is to find the right place to live.  The choice of which neighborhood to live, within the new city, comes with a number of important questions. A few of the ones that come to mind are: 
 * How much it will housing cost? 
 * How much time the daily commute will take? 
-* What kind of venues are near it?.  
+* What kind of venues are near it? 
 
-Regarding such questions, this project aims to answer them, at a general level, given two specific premises. First, having found a new job in the financial district, located in lower Manhattan, and second, planning to live within one of the five New York City boroughs.
+Regarding such questions, this project aims to answer them, at a general level, given two specific premises.  First, having found a new job in the financial district, located in lower Manhattan, and second, planning to live within one of the five New York City boroughs.
 Based upon the assumptions given, this project compares average rent prices for different neighborhoods in Manhattan, Queens,  Brooklyn, the Bronx and Staten Island, the times that it takes to commute from them during rush hour, along with the most popular venues in them.
 
 
 ## 2. Data <a name="Data"></a>
 
-To complete this project, it was necessary to gather data regarding rent, commuting times, and most popular venues for each of the neighborhoods in question.  While some of the data was readily available, the commuting times were collected individually from each neighborhood using google maps.  The data sources are listed below.
+To complete this project, it was necessary to gather data regarding rent, commuting times, and most popular venues for each of the neighborhoods in question.  While some of the data was readily available, the commuting times were collected individually from each neighborhood using google maps.  The specific data sources are listed below.
 
 * Average rental data per neighborhood is available at:
-<https://streeteasy.com/blog/data-dashboard/>
+https://streeteasy.com/blog/data-dashboard/
 
 * The latitude and longitude for the neighborhoods across all five boroughs is available in different file formats, i.e. Derived Shapefile, KMZ and GeoJSON from:
-<https://geo.nyu.edu/catalog/nyu_2451_34572>
+https://geo.nyu.edu/catalog/nyu_2451_34572
 
 * The commute times were collected from Google Maps:
-<https://www.google.com/maps/>
+https://www.google.com/maps/
 
 * Lastly, the Foursquare API was used to find information about the venues location and their popularity among Foursquare users:
-<https://developer.foursquare.com/docs/api/venues/explore>
+https://developer.foursquare.com/docs/api/venues/explore
 
 ```python
 ## sorting dataframe in ascending order to generate plot
