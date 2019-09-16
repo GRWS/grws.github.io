@@ -125,24 +125,25 @@ The following table shows the averages for each of the features under considerat
 
 To get a better picture for the results, it was decided to consider each borough individually. The four tables shown below display the results sorted by commute time, from lowest to highest, while also including bar charts to make comparisons between neighborhoods easier. 
 
-##### Manhattan Results Table
+#### Manhattan Results Table
 
 ![Manhattan Table](https://user-images.githubusercontent.com/51925289/64991024-e83be480-d885-11e9-8643-9e66c6db0b3d.JPG)
 
-##### Brooklyn Results Table
+#### Brooklyn Results Table
 
 ![BrooklynTable](https://user-images.githubusercontent.com/51925289/64991345-921b7100-d886-11e9-9ecf-5f902e59b5e8.JPG)
 
 
-##### Queens Results Table
+#### Queens Results Table
 
 ![QueensTable](https://user-images.githubusercontent.com/51925289/64991423-b0816c80-d886-11e9-91af-78c606ee6c8a.JPG)
 
-##### Bvronx Results Table
+#### Bronx Results Table
 
 ![BronxTable](https://user-images.githubusercontent.com/51925289/64991476-c858f080-d886-11e9-89f0-e0ca4c0dab36.JPG)
 
 
+Additionally, a table displaying the three selected features can be seen accessed by using the Summary Table link, located at header atop this page, or here: <https://grws.github.io/neighborhood_table/>
 
 ## 5. Further Discussion <a name="Discussion"></a>
 Needless to say, the order of importance of any of the three selected features can vary from person to person, so the goal was to give an overall view of them for the selected neighborhoods. Also, those three features are but a few that might be considered when choosing the right neighborhood to live in.  Other possible factors that could significantly influence such choice could be: proximity to good schools, healthcare facilities, recreational opportunities, crime rates, having services within walking distance and proximity to airports among others.  It is always a possibility to expand upon this project to include some of those factors in the future.  Regardless, the availability of reliable data will always be a constraint to provide a truly comprehensive comparison.
