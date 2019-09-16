@@ -19,7 +19,7 @@ title:  Home
 
 5. [Further Discussion](#Discussion)
 
-6. [Conclussion](#Conclussion)
+6. [Conclusion](#Conclusion)
 
 ## 1. Introduction <a name="introduction"></a>
 
@@ -123,15 +123,32 @@ The following table shows the averages for each of the features under considerat
 |Queens|2,086.22|56.89|42.59|
 |Bronx|1,829.59|61.83|27.82|
 
+To get a better picture for the results, it was decided to consider each borough individually. The four tables shown below display the results sorted by commute time, from lowest to highest, while also including bar charts to make comparisons between neighborhoods easier. 
+
+##### Manhattan Results Table
+
+![Manhattan Table](https://user-images.githubusercontent.com/51925289/64991024-e83be480-d885-11e9-8643-9e66c6db0b3d.JPG)
+
+##### Brooklyn Results Table
+
+![BrooklynTable](https://user-images.githubusercontent.com/51925289/64991345-921b7100-d886-11e9-9ecf-5f902e59b5e8.JPG)
 
 
-Now adding some python code and trying to see if it would show the map!
-{% highlight python %}
-import folium
-print('Folium installed and imported!')
-m = folium.Map(location=[45.5236, -122.6750])
+##### Queens Results Table
 
-m
-{% endhighlight %}
+![QueensTable](https://user-images.githubusercontent.com/51925289/64991423-b0816c80-d886-11e9-91af-78c606ee6c8a.JPG)
 
-What happened?
+##### Bvronx Results Table
+
+![BronxTable](https://user-images.githubusercontent.com/51925289/64991476-c858f080-d886-11e9-89f0-e0ca4c0dab36.JPG)
+
+
+
+## 5. Further Discussion <a name="Discussion"></a>
+Needless to say, the order of importance of any of the three selected features can vary from person to person, so the goal was to give an overall view of them for the selected neighborhoods. Also, those three features are but a few that might be considered when choosing the right neighborhood to live in.  Other possible factors that could significantly influence such choice could be: proximity to good schools, healthcare facilities, recreational opportunities, crime rates, having services within walking distance and proximity to airports among others.  It is always a possibility to expand upon this project to include some of those factors in the future.  Regardless, the availability of reliable data will always be a constraint to provide a truly comprehensive comparison.
+
+As mentioned earlier, it was not possible to get accurate average rental data for a significant number of neighborhoods within the five boroughs, and for that reason the whole borough of Staten Island had to be excluded altogether. Something else to consider, is that the rental data presented is an average for any of the neighborhoods and individual rental prices can vary widely.
+
+
+## 6. Conclussion <a name="Conclussion"></a>
+Relocating to a new city is never an easy task, and it comes both challenges and opportunities.  Though having the ability to compare relevant information, regarding new prospective neighborhoods, does not eliminate the uncertainty regarding a new location; it can make the process just a bit easier.
