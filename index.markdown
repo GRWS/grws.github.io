@@ -92,7 +92,7 @@ As the map below shows,  is clear that, with some exceptions, the neighborhoods 
 
 ![nyc_rent_prices](https://user-images.githubusercontent.com/51925289/64983772-27623980-d876-11e9-93c2-ad4893a043c2.JPG)
 
-The link to the interactive map pictured above is located at [NYC rents map] (https://github.com/GRWS/grws.github.io/blob/master/NYC_rents_map.html)
+The link to the interactive map pictured above is located at [NYC rents map] (https://grws.github.io/NYC_rents_map)
 
 
 ![NYC_commute_pic2](https://user-images.githubusercontent.com/51925289/64222030-a70a0480-ce83-11e9-910d-61fa7f83bc39.JPG)
