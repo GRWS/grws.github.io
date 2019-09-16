@@ -1,0 +1,3397 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_cb897c3e47d14c3f8679b7ab08dde804 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_cb897c3e47d14c3f8679b7ab08dde804" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_cb897c3e47d14c3f8679b7ab08dde804 = L.map(
+                                  'map_cb897c3e47d14c3f8679b7ab08dde804',
+                                  {center: [40.706,-74.009],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_7f405bcdb93845de95c2babe3ab6eed2 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+        
+    
+            var circle_marker_b9f9c4601bd24a47b5dfd73ea3e05832 = L.circleMarker(
+                [40.76576579252983,-73.97765592211962],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_a8c863f448f549a4b211ea5315506f39 = L.popup({maxWidth: '300'});
+
+            
+                var html_87618d3998244a61a20d286fd17cdef2 = $('<div id="html_87618d3998244a61a20d286fd17cdef2" style="width: 100.0%; height: 100.0%;">Central Park South, Venue Count = 100</div>')[0];
+                popup_a8c863f448f549a4b211ea5315506f39.setContent(html_87618d3998244a61a20d286fd17cdef2);
+            
+
+            circle_marker_b9f9c4601bd24a47b5dfd73ea3e05832.bindPopup(popup_a8c863f448f549a4b211ea5315506f39);
+
+            
+        
+    
+            var circle_marker_7005d1a90fb843889b99805fba1de1bf = L.circleMarker(
+                [40.721521967443216,-74.01068328559087],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_d4d6469821974ceeac09ebd335d8dcbc = L.popup({maxWidth: '300'});
+
+            
+                var html_abcbbe7bd8d8459a81dab7b79d1dee74 = $('<div id="html_abcbbe7bd8d8459a81dab7b79d1dee74" style="width: 100.0%; height: 100.0%;">Tribeca, Venue Count = 100</div>')[0];
+                popup_d4d6469821974ceeac09ebd335d8dcbc.setContent(html_abcbbe7bd8d8459a81dab7b79d1dee74);
+            
+
+            circle_marker_7005d1a90fb843889b99805fba1de1bf.bindPopup(popup_d4d6469821974ceeac09ebd335d8dcbc);
+
+            
+        
+    
+            var circle_marker_e49e46295bdc4a44886e523fa2b8d35c = L.circleMarker(
+                [40.72218384131794,-74.00065666959759],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_72146baea4054e24823d049836b23f50 = L.popup({maxWidth: '300'});
+
+            
+                var html_4bc566b815564888a208a943ee362994 = $('<div id="html_4bc566b815564888a208a943ee362994" style="width: 100.0%; height: 100.0%;">Soho, Venue Count = 100</div>')[0];
+                popup_72146baea4054e24823d049836b23f50.setContent(html_4bc566b815564888a208a943ee362994);
+            
+
+            circle_marker_e49e46295bdc4a44886e523fa2b8d35c.bindPopup(popup_72146baea4054e24823d049836b23f50);
+
+            
+        
+    
+            var circle_marker_880d092b57c94681a89ccb39f1391d77 = L.circleMarker(
+                [40.70317632822692,-73.9887528074504],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_1d86276581274192bb774507e02b9b5f = L.popup({maxWidth: '300'});
+
+            
+                var html_6769a069289b446090fa8eae53644e9b = $('<div id="html_6769a069289b446090fa8eae53644e9b" style="width: 100.0%; height: 100.0%;">Dumbo, Venue Count = 87</div>')[0];
+                popup_1d86276581274192bb774507e02b9b5f.setContent(html_6769a069289b446090fa8eae53644e9b);
+            
+
+            circle_marker_880d092b57c94681a89ccb39f1391d77.bindPopup(popup_1d86276581274192bb774507e02b9b5f);
+
+            
+        
+    
+            var circle_marker_4b34ee7753564806b53d7f5128a59901 = L.circleMarker(
+                [40.71193198394565,-74.01686930508617],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_087bb23a936b46b5afe4fa822d2af05a = L.popup({maxWidth: '300'});
+
+            
+                var html_e7ea90f854a7433aa618ffada197f22e = $('<div id="html_e7ea90f854a7433aa618ffada197f22e" style="width: 100.0%; height: 100.0%;">Battery Park City, Venue Count = 100</div>')[0];
+                popup_087bb23a936b46b5afe4fa822d2af05a.setContent(html_e7ea90f854a7433aa618ffada197f22e);
+            
+
+            circle_marker_4b34ee7753564806b53d7f5128a59901.bindPopup(popup_087bb23a936b46b5afe4fa822d2af05a);
+
+            
+        
+    
+            var circle_marker_512e21ec18b547b29a96237a0650a798 = L.circleMarker(
+                [40.744034706747975,-74.00311633472813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_6cff5d76144c4656bbc0fb462a6129be = L.popup({maxWidth: '300'});
+
+            
+                var html_d4becb714ca143a58644982163beef4d = $('<div id="html_d4becb714ca143a58644982163beef4d" style="width: 100.0%; height: 100.0%;">Chelsea, Venue Count = 100</div>')[0];
+                popup_6cff5d76144c4656bbc0fb462a6129be.setContent(html_d4becb714ca143a58644982163beef4d);
+            
+
+            circle_marker_512e21ec18b547b29a96237a0650a798.bindPopup(popup_6cff5d76144c4656bbc0fb462a6129be);
+
+            
+        
+    
+            var circle_marker_aeecdc924bb64f72b0806b4a3cb63217 = L.circleMarker(
+                [40.75469110270623,-73.98166882730304],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_d5a6175a1e69487ea0758d0b49e7422d = L.popup({maxWidth: '300'});
+
+            
+                var html_2adf8c51e37c46c997e07e31713c132d = $('<div id="html_2adf8c51e37c46c997e07e31713c132d" style="width: 100.0%; height: 100.0%;">Midtown, Venue Count = 100</div>')[0];
+                popup_d5a6175a1e69487ea0758d0b49e7422d.setContent(html_2adf8c51e37c46c997e07e31713c132d);
+            
+
+            circle_marker_aeecdc924bb64f72b0806b4a3cb63217.bindPopup(popup_d5a6175a1e69487ea0758d0b49e7422d);
+
+            
+        
+    
+            var circle_marker_5e1e8125ea8d40a5b6feb70076a7960a = L.circleMarker(
+                [40.73443393572434,-74.00617998126812],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_f1d58a3cf5984c4593bccf126ed4f24c = L.popup({maxWidth: '300'});
+
+            
+                var html_0826bc030ebd4b7abd10eeb73f70494e = $('<div id="html_0826bc030ebd4b7abd10eeb73f70494e" style="width: 100.0%; height: 100.0%;">West Village, Venue Count = 100</div>')[0];
+                popup_f1d58a3cf5984c4593bccf126ed4f24c.setContent(html_0826bc030ebd4b7abd10eeb73f70494e);
+            
+
+            circle_marker_5e1e8125ea8d40a5b6feb70076a7960a.bindPopup(popup_f1d58a3cf5984c4593bccf126ed4f24c);
+
+            
+        
+    
+            var circle_marker_0346b9244b404a1e9f4ebb4aa1547410 = L.circleMarker(
+                [40.7485096643122,-73.98871313285247],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_cf26668ff5314b94979b68129361dc18 = L.popup({maxWidth: '300'});
+
+            
+                var html_958bc1f5597e4dde964d66bc978cba08 = $('<div id="html_958bc1f5597e4dde964d66bc978cba08" style="width: 100.0%; height: 100.0%;">Midtown South, Venue Count = 100</div>')[0];
+                popup_cf26668ff5314b94979b68129361dc18.setContent(html_958bc1f5597e4dde964d66bc978cba08);
+            
+
+            circle_marker_0346b9244b404a1e9f4ebb4aa1547410.bindPopup(popup_cf26668ff5314b94979b68129361dc18);
+
+            
+        
+    
+            var circle_marker_466b3ff4f071421b86c4e1034433dcda = L.circleMarker(
+                [40.71932379395907,-73.99730467208073],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_557339c503da4bfe9e65ea620271085d = L.popup({maxWidth: '300'});
+
+            
+                var html_5770266a274148e4a06606b5a2b052ca = $('<div id="html_5770266a274148e4a06606b5a2b052ca" style="width: 100.0%; height: 100.0%;">Little Italy, Venue Count = 100</div>')[0];
+                popup_557339c503da4bfe9e65ea620271085d.setContent(html_5770266a274148e4a06606b5a2b052ca);
+            
+
+            circle_marker_466b3ff4f071421b86c4e1034433dcda.bindPopup(popup_557339c503da4bfe9e65ea620271085d);
+
+            
+        
+    
+            var circle_marker_ddea75106c1347aa880ab450459887cf = L.circleMarker(
+                [40.695863722724084,-73.99378225496424],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_a2b3d4409673478aa477699a5b7a296a = L.popup({maxWidth: '300'});
+
+            
+                var html_67ca5674d0fa4384887e69b8b37b103b = $('<div id="html_67ca5674d0fa4384887e69b8b37b103b" style="width: 100.0%; height: 100.0%;">Brooklyn Heights, Venue Count = 100</div>')[0];
+                popup_a2b3d4409673478aa477699a5b7a296a.setContent(html_67ca5674d0fa4384887e69b8b37b103b);
+            
+
+            circle_marker_ddea75106c1347aa880ab450459887cf.bindPopup(popup_a2b3d4409673478aa477699a5b7a296a);
+
+            
+        
+    
+            var circle_marker_b68aabe2bdb8487abb845ea9c1898331 = L.circleMarker(
+                [40.787657998534854,-73.97705923630603],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_11d81cb8390a4c8485944070dd148688 = L.popup({maxWidth: '300'});
+
+            
+                var html_cccf7a9c935c4bdfa58fa1f7c3f2f0a7 = $('<div id="html_cccf7a9c935c4bdfa58fa1f7c3f2f0a7" style="width: 100.0%; height: 100.0%;">Upper West Side, Venue Count = 100</div>')[0];
+                popup_11d81cb8390a4c8485944070dd148688.setContent(html_cccf7a9c935c4bdfa58fa1f7c3f2f0a7);
+            
+
+            circle_marker_b68aabe2bdb8487abb845ea9c1898331.bindPopup(popup_11d81cb8390a4c8485944070dd148688);
+
+            
+        
+    
+            var circle_marker_eea52967f6314351a9d059390d37bf1a = L.circleMarker(
+                [40.71780674892765,-73.98089031999291],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c0eb8d",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_167a9f4812754b6a91ef328fe135a43c = L.popup({maxWidth: '300'});
+
+            
+                var html_e42fa6d72de14f0e86ec7166e87fb138 = $('<div id="html_e42fa6d72de14f0e86ec7166e87fb138" style="width: 100.0%; height: 100.0%;">Lower East Side, Venue Count = 62</div>')[0];
+                popup_167a9f4812754b6a91ef328fe135a43c.setContent(html_e42fa6d72de14f0e86ec7166e87fb138);
+            
+
+            circle_marker_eea52967f6314351a9d059390d37bf1a.bindPopup(popup_167a9f4812754b6a91ef328fe135a43c);
+
+            
+        
+    
+            var circle_marker_163a64e4ea534237b6758176b2bf25b4 = L.circleMarker(
+                [40.727846777270244,-73.98222616506416],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_60fff4b5e3014fbda0f4b2d845a5e699 = L.popup({maxWidth: '300'});
+
+            
+                var html_22df03fc33a249d2a0c8546a19069e39 = $('<div id="html_22df03fc33a249d2a0c8546a19069e39" style="width: 100.0%; height: 100.0%;">East Village, Venue Count = 100</div>')[0];
+                popup_60fff4b5e3014fbda0f4b2d845a5e699.setContent(html_22df03fc33a249d2a0c8546a19069e39);
+            
+
+            circle_marker_163a64e4ea534237b6758176b2bf25b4.bindPopup(popup_60fff4b5e3014fbda0f4b2d845a5e699);
+
+            
+        
+    
+            var circle_marker_d14660cc977e4b49aac06ee17bf078fb = L.circleMarker(
+                [40.685682912091444,-73.98374824115798],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_eb8785220301444ab913d69c8402c84e = L.popup({maxWidth: '300'});
+
+            
+                var html_88866cde6f024497bd813fb8d82cf0cd = $('<div id="html_88866cde6f024497bd813fb8d82cf0cd" style="width: 100.0%; height: 100.0%;">Boerum Hill, Venue Count = 90</div>')[0];
+                popup_eb8785220301444ab913d69c8402c84e.setContent(html_88866cde6f024497bd813fb8d82cf0cd);
+            
+
+            circle_marker_d14660cc977e4b49aac06ee17bf078fb.bindPopup(popup_eb8785220301444ab913d69c8402c84e);
+
+            
+        
+    
+            var circle_marker_7b2f0ee87601458791d5efb56e41a7ce = L.circleMarker(
+                [40.68852726018977,-73.97290574369092],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c0eb8d",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_73b0b863619746f890975c65af25859e = L.popup({maxWidth: '300'});
+
+            
+                var html_e7a3121323574da6881db9cac8b0bc4b = $('<div id="html_e7a3121323574da6881db9cac8b0bc4b" style="width: 100.0%; height: 100.0%;">Fort Greene, Venue Count = 77</div>')[0];
+                popup_73b0b863619746f890975c65af25859e.setContent(html_e7a3121323574da6881db9cac8b0bc4b);
+            
+
+            circle_marker_7b2f0ee87601458791d5efb56e41a7ce.bindPopup(popup_73b0b863619746f890975c65af25859e);
+
+            
+        
+    
+            var circle_marker_784575eba0344d2b9820d6153be5ff50 = L.circleMarker(
+                [40.76215960576283,-73.94916769227953],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_794683cd010c4062a1d05bcd58eb3f0a = L.popup({maxWidth: '300'});
+
+            
+                var html_b4a6393980634f01b135ce9738cd412a = $('<div id="html_b4a6393980634f01b135ce9738cd412a" style="width: 100.0%; height: 100.0%;">Roosevelt Island, Venue Count = 22</div>')[0];
+                popup_794683cd010c4062a1d05bcd58eb3f0a.setContent(html_b4a6393980634f01b135ce9738cd412a);
+            
+
+            circle_marker_784575eba0344d2b9820d6153be5ff50.bindPopup(popup_794683cd010c4062a1d05bcd58eb3f0a);
+
+            
+        
+    
+            var circle_marker_721980435f6b4e7bb7569ae61b77cd8d = L.circleMarker(
+                [40.70714439344251,-73.95811529220927],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40ecd4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_507f21f285564e59a1f3e219688f8d7a = L.popup({maxWidth: '300'});
+
+            
+                var html_e02a2b3ba7504d20a78cca739f738d80 = $('<div id="html_e02a2b3ba7504d20a78cca739f738d80" style="width: 100.0%; height: 100.0%;">Williamsburg, Venue Count = 31</div>')[0];
+                popup_507f21f285564e59a1f3e219688f8d7a.setContent(html_e02a2b3ba7504d20a78cca739f738d80);
+            
+
+            circle_marker_721980435f6b4e7bb7569ae61b77cd8d.bindPopup(popup_507f21f285564e59a1f3e219688f8d7a);
+
+            
+        
+    
+            var circle_marker_8fd4a8a2631946789c104f52df151310 = L.circleMarker(
+                [40.687919722485574,-73.99856139218463],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_c19d4512797447ac80c24817c395b39e = L.popup({maxWidth: '300'});
+
+            
+                var html_75fda0898e7849568b54f84cf8a2dc5d = $('<div id="html_75fda0898e7849568b54f84cf8a2dc5d" style="width: 100.0%; height: 100.0%;">Cobble Hill, Venue Count = 100</div>')[0];
+                popup_c19d4512797447ac80c24817c395b39e.setContent(html_75fda0898e7849568b54f84cf8a2dc5d);
+            
+
+            circle_marker_8fd4a8a2631946789c104f52df151310.bindPopup(popup_c19d4512797447ac80c24817c395b39e);
+
+            
+        
+    
+            var circle_marker_668a107bb18342159ffc213bce68c3ff = L.circleMarker(
+                [40.75021734610528,-73.93920223915505],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c0eb8d",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_fc8a1b719b0e4c859d0ee6266ced7571 = L.popup({maxWidth: '300'});
+
+            
+                var html_acd826f4fc514c7dbac72e5288a9dfee = $('<div id="html_acd826f4fc514c7dbac72e5288a9dfee" style="width: 100.0%; height: 100.0%;">Long Island City, Venue Count = 70</div>')[0];
+                popup_fc8a1b719b0e4c859d0ee6266ced7571.setContent(html_acd826f4fc514c7dbac72e5288a9dfee);
+            
+
+            circle_marker_668a107bb18342159ffc213bce68c3ff.bindPopup(popup_fc8a1b719b0e4c859d0ee6266ced7571);
+
+            
+        
+    
+            var circle_marker_0d9b2cca2b8a4cbcae1b31f7eb1b1b4c = L.circleMarker(
+                [40.807999738165826,-73.96389627905332],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_29c7425646fa43b58903fb9f030446e0 = L.popup({maxWidth: '300'});
+
+            
+                var html_3c21097d0fee42fcbf3bc3517f41beb8 = $('<div id="html_3c21097d0fee42fcbf3bc3517f41beb8" style="width: 100.0%; height: 100.0%;">Morningside Heights, Venue Count = 42</div>')[0];
+                popup_29c7425646fa43b58903fb9f030446e0.setContent(html_3c21097d0fee42fcbf3bc3517f41beb8);
+            
+
+            circle_marker_0d9b2cca2b8a4cbcae1b31f7eb1b1b4c.bindPopup(popup_29c7425646fa43b58903fb9f030446e0);
+
+            
+        
+    
+            var circle_marker_2c35a05a6be14d298e6daefb87cc1a8d = L.circleMarker(
+                [40.775638573301805,-73.96050763135],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_46496be9f18c4c89819e8297c4f6ec4e = L.popup({maxWidth: '300'});
+
+            
+                var html_a916d5fa89dc4d78a6e40deeeb13f558 = $('<div id="html_a916d5fa89dc4d78a6e40deeeb13f558" style="width: 100.0%; height: 100.0%;">Upper East Side, Venue Count = 100</div>')[0];
+                popup_46496be9f18c4c89819e8297c4f6ec4e.setContent(html_a916d5fa89dc4d78a6e40deeeb13f558);
+            
+
+            circle_marker_2c35a05a6be14d298e6daefb87cc1a8d.bindPopup(popup_46496be9f18c4c89819e8297c4f6ec4e);
+
+            
+        
+    
+            var circle_marker_cb74736eac154e7bbb5e40ddbe6674b5 = L.circleMarker(
+                [40.693229421881504,-73.96784306216367],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_c4052491b36a4816b3345a8d86f67b5d = L.popup({maxWidth: '300'});
+
+            
+                var html_96d6839aba9c41e696c39a295c111f6f = $('<div id="html_96d6839aba9c41e696c39a295c111f6f" style="width: 100.0%; height: 100.0%;">Clinton Hill, Venue Count = 90</div>')[0];
+                popup_c4052491b36a4816b3345a8d86f67b5d.setContent(html_96d6839aba9c41e696c39a295c111f6f);
+            
+
+            circle_marker_cb74736eac154e7bbb5e40ddbe6674b5.bindPopup(popup_c4052491b36a4816b3345a8d86f67b5d);
+
+            
+        
+    
+            var circle_marker_5e168d2d39f8479e8c786d560649e1bb = L.circleMarker(
+                [40.676822262254724,-73.9648592426269],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_468298a951e746e282d33b0c0543612d = L.popup({maxWidth: '300'});
+
+            
+                var html_dc19a2da385b417794a6cdda87505fa9 = $('<div id="html_dc19a2da385b417794a6cdda87505fa9" style="width: 100.0%; height: 100.0%;">Prospect Heights, Venue Count = 83</div>')[0];
+                popup_468298a951e746e282d33b0c0543612d.setContent(html_dc19a2da385b417794a6cdda87505fa9);
+            
+
+            circle_marker_5e168d2d39f8479e8c786d560649e1bb.bindPopup(popup_468298a951e746e282d33b0c0543612d);
+
+            
+        
+    
+            var circle_marker_453ec0c374ad4c60bc84869c58eb7386 = L.circleMarker(
+                [40.67232052268197,-73.97705030183924],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c0eb8d",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_b87b3613faa64756a8b8a8e4c15a29a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_b75a30e1fd944bf6bff678ba3dca8d54 = $('<div id="html_b75a30e1fd944bf6bff678ba3dca8d54" style="width: 100.0%; height: 100.0%;">Park Slope, Venue Count = 72</div>')[0];
+                popup_b87b3613faa64756a8b8a8e4c15a29a2.setContent(html_b75a30e1fd944bf6bff678ba3dca8d54);
+            
+
+            circle_marker_453ec0c374ad4c60bc84869c58eb7386.bindPopup(popup_b87b3613faa64756a8b8a8e4c15a29a2);
+
+            
+        
+    
+            var circle_marker_fb15d00796d247e587c3ba97a16d9241 = L.circleMarker(
+                [40.7302009848647,-73.95424093127393],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_b4ecd0d775e74606b07e17c12dec4d5e = L.popup({maxWidth: '300'});
+
+            
+                var html_7e9bba2573744361974e436958379f08 = $('<div id="html_7e9bba2573744361974e436958379f08" style="width: 100.0%; height: 100.0%;">Greenpoint, Venue Count = 100</div>')[0];
+                popup_b4ecd0d775e74606b07e17c12dec4d5e.setContent(html_7e9bba2573744361974e436958379f08);
+            
+
+            circle_marker_fb15d00796d247e587c3ba97a16d9241.bindPopup(popup_b4ecd0d775e74606b07e17c12dec4d5e);
+
+            
+        
+    
+            var circle_marker_d4dadca0a80d49bdacaea92f75c55e07 = L.circleMarker(
+                [40.680540231076485,-73.99465372828006],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_e335c5b0d669450080b5aa7f13ba5b4a = L.popup({maxWidth: '300'});
+
+            
+                var html_daa2fd4d80594b7fbf8a88214527a38c = $('<div id="html_daa2fd4d80594b7fbf8a88214527a38c" style="width: 100.0%; height: 100.0%;">Carroll Gardens, Venue Count = 100</div>')[0];
+                popup_e335c5b0d669450080b5aa7f13ba5b4a.setContent(html_daa2fd4d80594b7fbf8a88214527a38c);
+            
+
+            circle_marker_d4dadca0a80d49bdacaea92f75c55e07.bindPopup(popup_e335c5b0d669450080b5aa7f13ba5b4a);
+
+            
+        
+    
+            var circle_marker_9e358a523c0142f3a14ccfb127f14ad2 = L.circleMarker(
+                [40.673931143187154,-73.99444087145339],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c0eb8d",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_b324f830646a48ed81cc9b52f4d114eb = L.popup({maxWidth: '300'});
+
+            
+                var html_9ebb9f3a73da47538a744ad95d133fdd = $('<div id="html_9ebb9f3a73da47538a744ad95d133fdd" style="width: 100.0%; height: 100.0%;">Gowanus, Venue Count = 66</div>')[0];
+                popup_b324f830646a48ed81cc9b52f4d114eb.setContent(html_9ebb9f3a73da47538a744ad95d133fdd);
+            
+
+            circle_marker_9e358a523c0142f3a14ccfb127f14ad2.bindPopup(popup_b324f830646a48ed81cc9b52f4d114eb);
+
+            
+        
+    
+            var circle_marker_7cc9e06f64a545c8bdf233bb03e98683 = L.circleMarker(
+                [40.65694583575104,-73.98007340430172],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_d151871142f04b94bbff1673cfb7c635 = L.popup({maxWidth: '300'});
+
+            
+                var html_0d00a3e83c4c47dfbcdff8484e9ff35c = $('<div id="html_0d00a3e83c4c47dfbcdff8484e9ff35c" style="width: 100.0%; height: 100.0%;">Windsor Terrace, Venue Count = 25</div>')[0];
+                popup_d151871142f04b94bbff1673cfb7c635.setContent(html_0d00a3e83c4c47dfbcdff8484e9ff35c);
+            
+
+            circle_marker_7cc9e06f64a545c8bdf233bb03e98683.bindPopup(popup_d151871142f04b94bbff1673cfb7c635);
+
+            
+        
+    
+            var circle_marker_555a38fead154e9289ec06b0d9e57b81 = L.circleMarker(
+                [40.676253230250886,-74.0127589747356],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_18e9da0e476d426cb02793ccfed6c8f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_36a21d95b76947a98038ece8c18e0e94 = $('<div id="html_36a21d95b76947a98038ece8c18e0e94" style="width: 100.0%; height: 100.0%;">Red Hook, Venue Count = 50</div>')[0];
+                popup_18e9da0e476d426cb02793ccfed6c8f4.setContent(html_36a21d95b76947a98038ece8c18e0e94);
+            
+
+            circle_marker_555a38fead154e9289ec06b0d9e57b81.bindPopup(popup_18e9da0e476d426cb02793ccfed6c8f4);
+
+            
+        
+    
+            var circle_marker_3ad9f99e8c2d4abf887f780b3c2ba033 = L.circleMarker(
+                [40.71561842231432,-73.99427936255978],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_bec0601baf13402791be03a475de827b = L.popup({maxWidth: '300'});
+
+            
+                var html_28d45d61a1434eda8284e0e859050334 = $('<div id="html_28d45d61a1434eda8284e0e859050334" style="width: 100.0%; height: 100.0%;">Chinatown, Venue Count = 100</div>')[0];
+                popup_bec0601baf13402791be03a475de827b.setContent(html_28d45d61a1434eda8284e0e859050334);
+            
+
+            circle_marker_3ad9f99e8c2d4abf887f780b3c2ba033.bindPopup(popup_bec0601baf13402791be03a475de827b);
+
+            
+        
+    
+            var circle_marker_f960c81865a542499cd020bb0948dbea = L.circleMarker(
+                [40.823604284811935,-73.94968791883366],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c0eb8d",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_2bdad5e536fc4bb88b8e80c32c9b02fb = L.popup({maxWidth: '300'});
+
+            
+                var html_a85419b38e3e4f1c92bf25c283f62688 = $('<div id="html_a85419b38e3e4f1c92bf25c283f62688" style="width: 100.0%; height: 100.0%;">Hamilton Heights, Venue Count = 60</div>')[0];
+                popup_2bdad5e536fc4bb88b8e80c32c9b02fb.setContent(html_a85419b38e3e4f1c92bf25c283f62688);
+            
+
+            circle_marker_f960c81865a542499cd020bb0948dbea.bindPopup(popup_2bdad5e536fc4bb88b8e80c32c9b02fb);
+
+            
+        
+    
+            var circle_marker_e28b307936d24820869d42ff06bb3f71 = L.circleMarker(
+                [40.70832315613858,-73.90143517559589],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_f8257d9fac57490b98ef0bd33f1efccb = L.popup({maxWidth: '300'});
+
+            
+                var html_4604edd1852c4cbb9a3df9d8e62c0302 = $('<div id="html_4604edd1852c4cbb9a3df9d8e62c0302" style="width: 100.0%; height: 100.0%;">Ridgewood, Venue Count = 40</div>')[0];
+                popup_f8257d9fac57490b98ef0bd33f1efccb.setContent(html_4604edd1852c4cbb9a3df9d8e62c0302);
+            
+
+            circle_marker_e28b307936d24820869d42ff06bb3f71.bindPopup(popup_f8257d9fac57490b98ef0bd33f1efccb);
+
+            
+        
+    
+            var circle_marker_ea450c2002ac44e89775c814e6c14573 = L.circleMarker(
+                [40.8169344294978,-73.9573853935188],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_fa00b7e82e0c415082410f6fc3c378cc = L.popup({maxWidth: '300'});
+
+            
+                var html_3e341838ae54481b96eb3b591a835516 = $('<div id="html_3e341838ae54481b96eb3b591a835516" style="width: 100.0%; height: 100.0%;">Manhattanville, Venue Count = 39</div>')[0];
+                popup_fa00b7e82e0c415082410f6fc3c378cc.setContent(html_3e341838ae54481b96eb3b591a835516);
+            
+
+            circle_marker_ea450c2002ac44e89775c814e6c14573.bindPopup(popup_fa00b7e82e0c415082410f6fc3c378cc);
+
+            
+        
+    
+            var circle_marker_2117bcefd742480e99bf4ad0269e68dc = L.circleMarker(
+                [40.78129076602694,-73.81420216610863],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_ab2c6a2b2d2546378a3329ab4aa73aec = L.popup({maxWidth: '300'});
+
+            
+                var html_c3829f2f85d04d4bbdb9cb6ed3b0ca54 = $('<div id="html_c3829f2f85d04d4bbdb9cb6ed3b0ca54" style="width: 100.0%; height: 100.0%;">Whitestone, Venue Count = 4</div>')[0];
+                popup_ab2c6a2b2d2546378a3329ab4aa73aec.setContent(html_c3829f2f85d04d4bbdb9cb6ed3b0ca54);
+            
+
+            circle_marker_2117bcefd742480e99bf4ad0269e68dc.bindPopup(popup_ab2c6a2b2d2546378a3329ab4aa73aec);
+
+            
+        
+    
+            var circle_marker_4b0d57040eab4a0284b0645718b4cd29 = L.circleMarker(
+                [40.658420017469815,-73.95489867077713],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_c3b82cb8a1e746c4ae533f56b870d1f1 = L.popup({maxWidth: '300'});
+
+            
+                var html_f2a47297a8fc46888fe0b88f75ad70b7 = $('<div id="html_f2a47297a8fc46888fe0b88f75ad70b7" style="width: 100.0%; height: 100.0%;">Prospect Lefferts Gardens, Venue Count = 51</div>')[0];
+                popup_c3b82cb8a1e746c4ae533f56b870d1f1.setContent(html_f2a47297a8fc46888fe0b88f75ad70b7);
+            
+
+            circle_marker_4b0d57040eab4a0284b0645718b4cd29.bindPopup(popup_c3b82cb8a1e746c4ae533f56b870d1f1);
+
+            
+        
+    
+            var circle_marker_aff98350719d446cabf4b98e8722801f = L.circleMarker(
+                [40.87655077879964,-73.91065965862981],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_63e1e20ebfb04426b8beff2f8f8f86ca = L.popup({maxWidth: '300'});
+
+            
+                var html_ca7770025a78407fb7f08c4817187a65 = $('<div id="html_ca7770025a78407fb7f08c4817187a65" style="width: 100.0%; height: 100.0%;">Marble Hill, Venue Count = 24</div>')[0];
+                popup_63e1e20ebfb04426b8beff2f8f8f86ca.setContent(html_ca7770025a78407fb7f08c4817187a65);
+            
+
+            circle_marker_aff98350719d446cabf4b98e8722801f.bindPopup(popup_63e1e20ebfb04426b8beff2f8f8f86ca);
+
+            
+        
+    
+            var circle_marker_674a27a5887b4c7b89e6d78c19a6eccd = L.circleMarker(
+                [40.716414511158185,-73.88114319200604],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_686cffc2bd284df3a72df3bf86f4f68f = L.popup({maxWidth: '300'});
+
+            
+                var html_a72655fb171b49dfaaf266fa7b8622cb = $('<div id="html_a72655fb171b49dfaaf266fa7b8622cb" style="width: 100.0%; height: 100.0%;">Middle Village, Venue Count = 18</div>')[0];
+                popup_686cffc2bd284df3a72df3bf86f4f68f.setContent(html_a72655fb171b49dfaaf266fa7b8622cb);
+            
+
+            circle_marker_674a27a5887b4c7b89e6d78c19a6eccd.bindPopup(popup_686cffc2bd284df3a72df3bf86f4f68f);
+
+            
+        
+    
+            var circle_marker_c03269c42ca144feb956b47845ae5982 = L.circleMarker(
+                [40.74238175015667,-73.85682497345258],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_d68dbbb2eb7245fd8436b95e8c95ff75 = L.popup({maxWidth: '300'});
+
+            
+                var html_6672f432158743bab2c793770fa867d5 = $('<div id="html_6672f432158743bab2c793770fa867d5" style="width: 100.0%; height: 100.0%;">Corona, Venue Count = 16</div>')[0];
+                popup_d68dbbb2eb7245fd8436b95e8c95ff75.setContent(html_6672f432158743bab2c793770fa867d5);
+            
+
+            circle_marker_c03269c42ca144feb956b47845ae5982.bindPopup(popup_d68dbbb2eb7245fd8436b95e8c95ff75);
+
+            
+        
+    
+            var circle_marker_62b3f6a8febc4664a57a3499702d32dd = L.circleMarker(
+                [40.80623874935177,-73.91609987487575],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_f3f964436e6c461687cccd2bd35aaa0b = L.popup({maxWidth: '300'});
+
+            
+                var html_ac26bc7259a3426db15b215645dcfdb9 = $('<div id="html_ac26bc7259a3426db15b215645dcfdb9" style="width: 100.0%; height: 100.0%;">Mott Haven, Venue Count = 22</div>')[0];
+                popup_f3f964436e6c461687cccd2bd35aaa0b.setContent(html_ac26bc7259a3426db15b215645dcfdb9);
+            
+
+            circle_marker_62b3f6a8febc4664a57a3499702d32dd.bindPopup(popup_f3f964436e6c461687cccd2bd35aaa0b);
+
+            
+        
+    
+            var circle_marker_f7feca1824d94cc697fecb2c079235fa = L.circleMarker(
+                [40.70276242967838,-73.87074167435605],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_6e38b2056908444ab9a15ab4cc90f84e = L.popup({maxWidth: '300'});
+
+            
+                var html_791ba81ed1db452fbcbbda60d71b396f = $('<div id="html_791ba81ed1db452fbcbbda60d71b396f" style="width: 100.0%; height: 100.0%;">Glendale, Venue Count = 4</div>')[0];
+                popup_6e38b2056908444ab9a15ab4cc90f84e.setContent(html_791ba81ed1db452fbcbbda60d71b396f);
+            
+
+            circle_marker_f7feca1824d94cc697fecb2c079235fa.bindPopup(popup_6e38b2056908444ab9a15ab4cc90f84e);
+
+            
+        
+    
+            var circle_marker_4fd335b2c4fe4b93ba00c60c01899fff = L.circleMarker(
+                [40.85190252555305,-73.93690027985234],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_cbb4ea1089094c27b18d9bb706130a58 = L.popup({maxWidth: '300'});
+
+            
+                var html_04124e5beafe4a0eb147b0474bbd9351 = $('<div id="html_04124e5beafe4a0eb147b0474bbd9351" style="width: 100.0%; height: 100.0%;">Washington Heights, Venue Count = 85</div>')[0];
+                popup_cbb4ea1089094c27b18d9bb706130a58.setContent(html_04124e5beafe4a0eb147b0474bbd9351);
+            
+
+            circle_marker_4fd335b2c4fe4b93ba00c60c01899fff.bindPopup(popup_cbb4ea1089094c27b18d9bb706130a58);
+
+            
+        
+    
+            var circle_marker_120f747ea28642f490d38f8c50cb271e = L.circleMarker(
+                [40.76850859335492,-73.91565374304234],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_78b96d2172594763a683a11c3ab4e344 = L.popup({maxWidth: '300'});
+
+            
+                var html_e835d3852e504d14b37e6afe42172891 = $('<div id="html_e835d3852e504d14b37e6afe42172891" style="width: 100.0%; height: 100.0%;">Astoria, Venue Count = 100</div>')[0];
+                popup_78b96d2172594763a683a11c3ab4e344.setContent(html_e835d3852e504d14b37e6afe42172891);
+            
+
+            circle_marker_120f747ea28642f490d38f8c50cb271e.bindPopup(popup_78b96d2172594763a683a11c3ab4e344);
+
+            
+        
+    
+            var circle_marker_f6f52b91f6bc444f88fd72101de4386d = L.circleMarker(
+                [40.642381958003526,-73.98042110559474],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40ecd4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_eff3269fdc3047409b63587311e7572e = L.popup({maxWidth: '300'});
+
+            
+                var html_1ef63b7dd36f4e4ea5944d5bedfa3495 = $('<div id="html_1ef63b7dd36f4e4ea5944d5bedfa3495" style="width: 100.0%; height: 100.0%;">Kensington, Venue Count = 38</div>')[0];
+                popup_eff3269fdc3047409b63587311e7572e.setContent(html_1ef63b7dd36f4e4ea5944d5bedfa3495);
+            
+
+            circle_marker_f6f52b91f6bc444f88fd72101de4386d.bindPopup(popup_eff3269fdc3047409b63587311e7572e);
+
+            
+        
+    
+            var circle_marker_902493c81e0e426983ebdc10f7209c68 = L.circleMarker(
+                [40.64171776668961,-73.93610256185836],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_0ceae30de3ad4d6781385dc777437193 = L.popup({maxWidth: '300'});
+
+            
+                var html_5adb3d1790df461daa6f42ac9405ec3d = $('<div id="html_5adb3d1790df461daa6f42ac9405ec3d" style="width: 100.0%; height: 100.0%;">East Flatbush, Venue Count = 14</div>')[0];
+                popup_0ceae30de3ad4d6781385dc777437193.setContent(html_5adb3d1790df461daa6f42ac9405ec3d);
+            
+
+            circle_marker_902493c81e0e426983ebdc10f7209c68.bindPopup(popup_0ceae30de3ad4d6781385dc777437193);
+
+            
+        
+    
+            var circle_marker_577c7f328aca4fbfb0d3159957e65362 = L.circleMarker(
+                [40.890834493891305,-73.9125854610857],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_8471b00ef754450d80fd26860bc47fb6 = L.popup({maxWidth: '300'});
+
+            
+                var html_986206e904174912811f7abb8ab66833 = $('<div id="html_986206e904174912811f7abb8ab66833" style="width: 100.0%; height: 100.0%;">Riverdale, Venue Count = 9</div>')[0];
+                popup_8471b00ef754450d80fd26860bc47fb6.setContent(html_986206e904174912811f7abb8ab66833);
+            
+
+            circle_marker_577c7f328aca4fbfb0d3159957e65362.bindPopup(popup_8471b00ef754450d80fd26860bc47fb6);
+
+            
+        
+    
+            var circle_marker_45d64b09be9247759e8f3a639a3353df = L.circleMarker(
+                [40.7343944653313,-73.78271337003264],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_a70f2b22d8e94cca9dc8b600bc35a71f = L.popup({maxWidth: '300'});
+
+            
+                var html_ed92a193f6064246bef74dbd2ef7eedc = $('<div id="html_ed92a193f6064246bef74dbd2ef7eedc" style="width: 100.0%; height: 100.0%;">Fresh Meadows, Venue Count = 16</div>')[0];
+                popup_a70f2b22d8e94cca9dc8b600bc35a71f.setContent(html_ed92a193f6064246bef74dbd2ef7eedc);
+            
+
+            circle_marker_45d64b09be9247759e8f3a639a3353df.bindPopup(popup_a70f2b22d8e94cca9dc8b600bc35a71f);
+
+            
+        
+    
+            var circle_marker_7bfac75ee3464dcbb85ba72c6296c54e = L.circleMarker(
+                [40.63632589026677,-73.95840106533903],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_eef653a4500d45cab3d261bdc323ae6c = L.popup({maxWidth: '300'});
+
+            
+                var html_60410261654d4f3e921632be91f37f9a = $('<div id="html_60410261654d4f3e921632be91f37f9a" style="width: 100.0%; height: 100.0%;">Flatbush, Venue Count = 20</div>')[0];
+                popup_eef653a4500d45cab3d261bdc323ae6c.setContent(html_60410261654d4f3e921632be91f37f9a);
+            
+
+            circle_marker_7bfac75ee3464dcbb85ba72c6296c54e.bindPopup(popup_eef653a4500d45cab3d261bdc323ae6c);
+
+            
+        
+    
+            var circle_marker_43b7252d6ea845bfb9239f2ba0a11e67 = L.circleMarker(
+                [40.669925700847045,-73.88069863917366],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_f65c0d50b2ba4bba801a2d33389ea21d = L.popup({maxWidth: '300'});
+
+            
+                var html_2942c07cd215405981d025b360d29fc6 = $('<div id="html_2942c07cd215405981d025b360d29fc6" style="width: 100.0%; height: 100.0%;">East New York, Venue Count = 17</div>')[0];
+                popup_f65c0d50b2ba4bba801a2d33389ea21d.setContent(html_2942c07cd215405981d025b360d29fc6);
+            
+
+            circle_marker_43b7252d6ea845bfb9239f2ba0a11e67.bindPopup(popup_f65c0d50b2ba4bba801a2d33389ea21d);
+
+            
+        
+    
+            var circle_marker_b2cfc3be52e3482091cdd902dd2c9a84 = L.circleMarker(
+                [40.725427374093606,-73.89621713626859],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c0eb8d",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_976f09d4fd0043a6b75908e89e65e46a = L.popup({maxWidth: '300'});
+
+            
+                var html_530b510822a04e11b0d03835004ed216 = $('<div id="html_530b510822a04e11b0d03835004ed216" style="width: 100.0%; height: 100.0%;">Maspeth, Venue Count = 68</div>')[0];
+                popup_976f09d4fd0043a6b75908e89e65e46a.setContent(html_530b510822a04e11b0d03835004ed216);
+            
+
+            circle_marker_b2cfc3be52e3482091cdd902dd2c9a84.bindPopup(popup_976f09d4fd0043a6b75908e89e65e46a);
+
+            
+        
+    
+            var circle_marker_0743bfec896142ceb05be56d1a467222 = L.circleMarker(
+                [40.725427374093606,-73.89621713626859],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c0eb8d",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_caa85f430e4940058a12678ac8276cd7 = L.popup({maxWidth: '300'});
+
+            
+                var html_94ec4008de734583b6fc7998c3f5942f = $('<div id="html_94ec4008de734583b6fc7998c3f5942f" style="width: 100.0%; height: 100.0%;">Maspeth, Venue Count = 68</div>')[0];
+                popup_caa85f430e4940058a12678ac8276cd7.setContent(html_94ec4008de734583b6fc7998c3f5942f);
+            
+
+            circle_marker_0743bfec896142ceb05be56d1a467222.bindPopup(popup_caa85f430e4940058a12678ac8276cd7);
+
+            
+        
+    
+            var circle_marker_090ac939bba440fcae70e4b034d7c1a3 = L.circleMarker(
+                [40.72897409480735,-73.8578268690537],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_fc5ea85796fe482b929290b2c7a0738a = L.popup({maxWidth: '300'});
+
+            
+                var html_c0aa05a390a04e3cac7b542ec4efaccc = $('<div id="html_c0aa05a390a04e3cac7b542ec4efaccc" style="width: 100.0%; height: 100.0%;">Rego Park, Venue Count = 42</div>')[0];
+                popup_fc5ea85796fe482b929290b2c7a0738a.setContent(html_c0aa05a390a04e3cac7b542ec4efaccc);
+            
+
+            circle_marker_090ac939bba440fcae70e4b034d7c1a3.bindPopup(popup_fc5ea85796fe482b929290b2c7a0738a);
+
+            
+        
+    
+            var circle_marker_946baca957b24b798e7bf947f6d1e6b9 = L.circleMarker(
+                [40.72526378216503,-73.84447500788983],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40ecd4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_ddbb312c800d45a18f50ca624b56416a = L.popup({maxWidth: '300'});
+
+            
+                var html_f47cfb3c855f499a8954c1a19b81eef5 = $('<div id="html_f47cfb3c855f499a8954c1a19b81eef5" style="width: 100.0%; height: 100.0%;">Forest Hills, Venue Count = 37</div>')[0];
+                popup_ddbb312c800d45a18f50ca624b56416a.setContent(html_f47cfb3c855f499a8954c1a19b81eef5);
+            
+
+            circle_marker_946baca957b24b798e7bf947f6d1e6b9.bindPopup(popup_ddbb312c800d45a18f50ca624b56416a);
+
+            
+        
+    
+            var circle_marker_035b89ad05544e32ade4dd3b05803f43 = L.circleMarker(
+                [40.57429256471601,-73.98868295821637],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_5515adb94e54419391dd8d88ccab4995 = L.popup({maxWidth: '300'});
+
+            
+                var html_243dc44c01074510929fdf4f4d708813 = $('<div id="html_243dc44c01074510929fdf4f4d708813" style="width: 100.0%; height: 100.0%;">Coney Island, Venue Count = 14</div>')[0];
+                popup_5515adb94e54419391dd8d88ccab4995.setContent(html_243dc44c01074510929fdf4f4d708813);
+            
+
+            circle_marker_035b89ad05544e32ade4dd3b05803f43.bindPopup(popup_5515adb94e54419391dd8d88ccab4995);
+
+            
+        
+    
+            var circle_marker_037230e884814dbbacaa08b92210026a = L.circleMarker(
+                [40.61514955045308,-73.89855633630317],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_97a5fad35d4d440897820d43dae4a4b5 = L.popup({maxWidth: '300'});
+
+            
+                var html_98a4d55c1a9a4634a4d978db6596912f = $('<div id="html_98a4d55c1a9a4634a4d978db6596912f" style="width: 100.0%; height: 100.0%;">Bergen Beach, Venue Count = 6</div>')[0];
+                popup_97a5fad35d4d440897820d43dae4a4b5.setContent(html_98a4d55c1a9a4634a4d978db6596912f);
+            
+
+            circle_marker_037230e884814dbbacaa08b92210026a.bindPopup(popup_97a5fad35d4d440897820d43dae4a4b5);
+
+            
+        
+    
+            var circle_marker_bf0f692b12824564a78661ee97d73f03 = L.circleMarker(
+                [40.76604063281064,-73.7742736306867],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c0eb8d",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_f56f60e4b8ac43819373fd32e93eeb9e = L.popup({maxWidth: '300'});
+
+            
+                var html_4f679cacaa7349e297830d7612285fdc = $('<div id="html_4f679cacaa7349e297830d7612285fdc" style="width: 100.0%; height: 100.0%;">Bayside, Venue Count = 73</div>')[0];
+                popup_f56f60e4b8ac43819373fd32e93eeb9e.setContent(html_4f679cacaa7349e297830d7612285fdc);
+            
+
+            circle_marker_bf0f692b12824564a78661ee97d73f03.bindPopup(popup_f56f60e4b8ac43819373fd32e93eeb9e);
+
+            
+        
+    
+            var circle_marker_7b6fb2e501f645209db75974868d6ad5 = L.circleMarker(
+                [40.821012197914015,-73.86574609554924],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40ecd4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_2d7e2aca2d7b4caa8cb6871aa7a18a97 = L.popup({maxWidth: '300'});
+
+            
+                var html_a287c7c0d67744f594a1a03c6f625316 = $('<div id="html_a287c7c0d67744f594a1a03c6f625316" style="width: 100.0%; height: 100.0%;">Soundview, Venue Count = 30</div>')[0];
+                popup_2d7e2aca2d7b4caa8cb6871aa7a18a97.setContent(html_a287c7c0d67744f594a1a03c6f625316);
+            
+
+            circle_marker_7b6fb2e501f645209db75974868d6ad5.bindPopup(popup_2d7e2aca2d7b4caa8cb6871aa7a18a97);
+
+            
+        
+    
+            var circle_marker_30685533471047a4ac9c18a0c2d89fda = L.circleMarker(
+                [40.821012197914015,-73.86574609554924],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40ecd4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_598203b4a6894717a60bf005245a5b66 = L.popup({maxWidth: '300'});
+
+            
+                var html_9bf82af11bef4912ba625ae2b35760c7 = $('<div id="html_9bf82af11bef4912ba625ae2b35760c7" style="width: 100.0%; height: 100.0%;">Soundview, Venue Count = 30</div>')[0];
+                popup_598203b4a6894717a60bf005245a5b66.setContent(html_9bf82af11bef4912ba625ae2b35760c7);
+            
+
+            circle_marker_30685533471047a4ac9c18a0c2d89fda.bindPopup(popup_598203b4a6894717a60bf005245a5b66);
+
+            
+        
+    
+            var circle_marker_a76574f0f3e64b479cfe04cb3ba50b2a = L.circleMarker(
+                [40.81510925804005,-73.81635002158441],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_343997ca0f924fd098455b27e1ac660f = L.popup({maxWidth: '300'});
+
+            
+                var html_51976a520ae74f77bc335e48e8cb5103 = $('<div id="html_51976a520ae74f77bc335e48e8cb5103" style="width: 100.0%; height: 100.0%;">Throgs Neck, Venue Count = 11</div>')[0];
+                popup_343997ca0f924fd098455b27e1ac660f.setContent(html_51976a520ae74f77bc335e48e8cb5103);
+            
+
+            circle_marker_a76574f0f3e64b479cfe04cb3ba50b2a.bindPopup(popup_343997ca0f924fd098455b27e1ac660f);
+
+            
+        
+    
+            var circle_marker_4758035691e548d1bb8511e21ccbb58b = L.circleMarker(
+                [40.63556432797428,-73.90209269778966],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_2c5831580517400caf98d33219df976c = L.popup({maxWidth: '300'});
+
+            
+                var html_1a64efb8bddf4b06a567d03731888104 = $('<div id="html_1a64efb8bddf4b06a567d03731888104" style="width: 100.0%; height: 100.0%;">Canarsie, Venue Count = 5</div>')[0];
+                popup_2c5831580517400caf98d33219df976c.setContent(html_1a64efb8bddf4b06a567d03731888104);
+            
+
+            circle_marker_4758035691e548d1bb8511e21ccbb58b.bindPopup(popup_2c5831580517400caf98d33219df976c);
+
+            
+        
+    
+            var circle_marker_4e2f4421f2434abfa29e980a8a98a691 = L.circleMarker(
+                [40.74017628351924,-73.92691617561577],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_4789ee96892f4cdba617b262a0cf5b78 = L.popup({maxWidth: '300'});
+
+            
+                var html_26370cb6ab724a6783c2d52848026ea3 = $('<div id="html_26370cb6ab724a6783c2d52848026ea3" style="width: 100.0%; height: 100.0%;">Sunnyside, Venue Count = 44</div>')[0];
+                popup_4789ee96892f4cdba617b262a0cf5b78.setContent(html_26370cb6ab724a6783c2d52848026ea3);
+            
+
+            circle_marker_4e2f4421f2434abfa29e980a8a98a691.bindPopup(popup_4789ee96892f4cdba617b262a0cf5b78);
+
+            
+        
+    
+            var circle_marker_8558892823b44e78bd78f95f326ad939 = L.circleMarker(
+                [40.76172954903262,-73.79176243728061],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_194902f0331b4006be58112392084cc7 = L.popup({maxWidth: '300'});
+
+            
+                var html_16a5d5af0dee43d3b1df070b89824543 = $('<div id="html_16a5d5af0dee43d3b1df070b89824543" style="width: 100.0%; height: 100.0%;">Auburndale, Venue Count = 19</div>')[0];
+                popup_194902f0331b4006be58112392084cc7.setContent(html_16a5d5af0dee43d3b1df070b89824543);
+            
+
+            circle_marker_8558892823b44e78bd78f95f326ad939.bindPopup(popup_194902f0331b4006be58112392084cc7);
+
+            
+        
+    
+            var circle_marker_4636eaa351d84bd18bd1c6361fbca8b5 = L.circleMarker(
+                [40.76445419697846,-73.83177300329582],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c0eb8d",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_664d7825ace34f02a875ca8fdbda0a79 = L.popup({maxWidth: '300'});
+
+            
+                var html_c275b9bf8df846a799d30ad36b1f8cb1 = $('<div id="html_c275b9bf8df846a799d30ad36b1f8cb1" style="width: 100.0%; height: 100.0%;">Flushing, Venue Count = 62</div>')[0];
+                popup_664d7825ace34f02a875ca8fdbda0a79.setContent(html_c275b9bf8df846a799d30ad36b1f8cb1);
+            
+
+            circle_marker_4636eaa351d84bd18bd1c6361fbca8b5.bindPopup(popup_664d7825ace34f02a875ca8fdbda0a79);
+
+            
+        
+    
+            var circle_marker_b842d40091c940b4b354a6fa642607a4 = L.circleMarker(
+                [40.7540709990489,-73.85751790676447],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_3ac51b240db4449b9bfc2083b5458758 = L.popup({maxWidth: '300'});
+
+            
+                var html_c0c48a02d1a841d48cdb701f0b873a68 = $('<div id="html_c0c48a02d1a841d48cdb701f0b873a68" style="width: 100.0%; height: 100.0%;">North Corona, Venue Count = 22</div>')[0];
+                popup_3ac51b240db4449b9bfc2083b5458758.setContent(html_c0c48a02d1a841d48cdb701f0b873a68);
+            
+
+            circle_marker_b842d40091c940b4b354a6fa642607a4.bindPopup(popup_3ac51b240db4449b9bfc2083b5458758);
+
+            
+        
+    
+            var circle_marker_340b658f901d4f7cbd951d2722175058 = L.circleMarker(
+                [40.625801065010656,-74.03062069353813],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_e5f03273c7824ff7878787a2cd8e3a49 = L.popup({maxWidth: '300'});
+
+            
+                var html_222d80ce4f7c4d50aa1e59bbdd7875c6 = $('<div id="html_222d80ce4f7c4d50aa1e59bbdd7875c6" style="width: 100.0%; height: 100.0%;">Bay Ridge, Venue Count = 87</div>')[0];
+                popup_e5f03273c7824ff7878787a2cd8e3a49.setContent(html_222d80ce4f7c4d50aa1e59bbdd7875c6);
+            
+
+            circle_marker_340b658f901d4f7cbd951d2722175058.bindPopup(popup_e5f03273c7824ff7878787a2cd8e3a49);
+
+            
+        
+    
+            var circle_marker_d6fe3d5e9ce74ee381ee7ef6b06365ba = L.circleMarker(
+                [40.57682506566604,-73.96509448785336],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_3001bf6311a94f4f822b4e6d10e6ae8a = L.popup({maxWidth: '300'});
+
+            
+                var html_0ddc74f1bc004d788fd47567e0cf672e = $('<div id="html_0ddc74f1bc004d788fd47567e0cf672e" style="width: 100.0%; height: 100.0%;">Brighton Beach, Venue Count = 44</div>')[0];
+                popup_3001bf6311a94f4f822b4e6d10e6ae8a.setContent(html_0ddc74f1bc004d788fd47567e0cf672e);
+            
+
+            circle_marker_d6fe3d5e9ce74ee381ee7ef6b06365ba.bindPopup(popup_3001bf6311a94f4f822b4e6d10e6ae8a);
+
+            
+        
+    
+            var circle_marker_3ed98f691b2f4c57bfcd3dd9fb7f3c05 = L.circleMarker(
+                [40.7051790354148,-73.82981905825703],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_4b36b47e442345d58eaebfc4ec4d283b = L.popup({maxWidth: '300'});
+
+            
+                var html_49bf348e2a584d81879eaf9a73ec32ff = $('<div id="html_49bf348e2a584d81879eaf9a73ec32ff" style="width: 100.0%; height: 100.0%;">Kew Gardens, Venue Count = 50</div>')[0];
+                popup_4b36b47e442345d58eaebfc4ec4d283b.setContent(html_49bf348e2a584d81879eaf9a73ec32ff);
+            
+
+            circle_marker_3ed98f691b2f4c57bfcd3dd9fb7f3c05.bindPopup(popup_4b36b47e442345d58eaebfc4ec4d283b);
+
+            
+        
+    
+            var circle_marker_f9110e1e2857420784c33e43263927fa = L.circleMarker(
+                [40.86768396449915,-73.92121042203897],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#c0eb8d",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_34d5fa33b3b4460781ec32324593a937 = L.popup({maxWidth: '300'});
+
+            
+                var html_a90868e2b61e4240a55f32428036777a = $('<div id="html_a90868e2b61e4240a55f32428036777a" style="width: 100.0%; height: 100.0%;">Inwood, Venue Count = 56</div>')[0];
+                popup_34d5fa33b3b4460781ec32324593a937.setContent(html_a90868e2b61e4240a55f32428036777a);
+            
+
+            circle_marker_f9110e1e2857420784c33e43263927fa.bindPopup(popup_34d5fa33b3b4460781ec32324593a937);
+
+            
+        
+    
+            var circle_marker_bf8c676d239b495badcb24d2ca34f4aa = L.circleMarker(
+                [40.81509904545822,-73.8957882009446],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_df5762ff224141c8bd6f87b5f825ac5e = L.popup({maxWidth: '300'});
+
+            
+                var html_fe7abfa295b74b94a1e0f470914b582d = $('<div id="html_fe7abfa295b74b94a1e0f470914b582d" style="width: 100.0%; height: 100.0%;">Longwood, Venue Count = 10</div>')[0];
+                popup_df5762ff224141c8bd6f87b5f825ac5e.setContent(html_fe7abfa295b74b94a1e0f470914b582d);
+            
+
+            circle_marker_bf8c676d239b495badcb24d2ca34f4aa.bindPopup(popup_df5762ff224141c8bd6f87b5f825ac5e);
+
+            
+        
+    
+            var circle_marker_a3ac2ca4cce7407ab0d92846851d4c6f = L.circleMarker(
+                [40.66394994339755,-73.91023536176607],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_589d4499930849a0a36ee567908ee7e8 = L.popup({maxWidth: '300'});
+
+            
+                var html_6995ebf75e7c44bda87f7c9c1a0fbaf6 = $('<div id="html_6995ebf75e7c44bda87f7c9c1a0fbaf6" style="width: 100.0%; height: 100.0%;">Brownsville, Venue Count = 19</div>')[0];
+                popup_589d4499930849a0a36ee567908ee7e8.setContent(html_6995ebf75e7c44bda87f7c9c1a0fbaf6);
+            
+
+            circle_marker_a3ac2ca4cce7407ab0d92846851d4c6f.bindPopup(popup_589d4499930849a0a36ee567908ee7e8);
+
+            
+        
+    
+            var circle_marker_b2006fb688f54731ba2b05ec113d13ed = L.circleMarker(
+                [40.75198138007367,-73.88282109164365],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_7ce00457aa794a4eab8f8ef834fc2f1c = L.popup({maxWidth: '300'});
+
+            
+                var html_a549860dc29f4718ab4e2c16cf7a5776 = $('<div id="html_a549860dc29f4718ab4e2c16cf7a5776" style="width: 100.0%; height: 100.0%;">Jackson Heights, Venue Count = 84</div>')[0];
+                popup_7ce00457aa794a4eab8f8ef834fc2f1c.setContent(html_a549860dc29f4718ab4e2c16cf7a5776);
+            
+
+            circle_marker_b2006fb688f54731ba2b05ec113d13ed.bindPopup(popup_7ce00457aa794a4eab8f8ef834fc2f1c);
+
+            
+        
+    
+            var circle_marker_a32105a68c34450aba1b286b1a1fe4f4 = L.circleMarker(
+                [40.74634908860222,-73.90184166838284],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_d0243a7d6a12400d9be71d4bdc149eb3 = L.popup({maxWidth: '300'});
+
+            
+                var html_a5d115235ed349a0b7f3b45f05b38cec = $('<div id="html_a5d115235ed349a0b7f3b45f05b38cec" style="width: 100.0%; height: 100.0%;">Woodside, Venue Count = 79</div>')[0];
+                popup_d0243a7d6a12400d9be71d4bdc149eb3.setContent(html_a5d115235ed349a0b7f3b45f05b38cec);
+            
+
+            circle_marker_a32105a68c34450aba1b286b1a1fe4f4.bindPopup(popup_d0243a7d6a12400d9be71d4bdc149eb3);
+
+            
+        
+    
+            var circle_marker_933bbae9f495488fa41178e34f93bc48 = L.circleMarker(
+                [40.633130512758015,-73.99049823044811],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_9bf39b1d9dc145968b0066b9756d4e0c = L.popup({maxWidth: '300'});
+
+            
+                var html_b6c688e6f08e4c08a1ac3e3692183b6f = $('<div id="html_b6c688e6f08e4c08a1ac3e3692183b6f" style="width: 100.0%; height: 100.0%;">Borough Park, Venue Count = 25</div>')[0];
+                popup_9bf39b1d9dc145968b0066b9756d4e0c.setContent(html_b6c688e6f08e4c08a1ac3e3692183b6f);
+            
+
+            circle_marker_933bbae9f495488fa41178e34f93bc48.bindPopup(popup_9bf39b1d9dc145968b0066b9756d4e0c);
+
+            
+        
+    
+            var circle_marker_a7a903bb70d94955912b17352dad3058 = L.circleMarker(
+                [40.62559589869843,-73.95759523489838],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_1859a7141ec04142ab20845517cc1590 = L.popup({maxWidth: '300'});
+
+            
+                var html_3343ac6ccc804a5c82bb59753828264a = $('<div id="html_3343ac6ccc804a5c82bb59753828264a" style="width: 100.0%; height: 100.0%;">Midwood, Venue Count = 14</div>')[0];
+                popup_1859a7141ec04142ab20845517cc1590.setContent(html_3343ac6ccc804a5c82bb59753828264a);
+            
+
+            circle_marker_a7a903bb70d94955912b17352dad3058.bindPopup(popup_1859a7141ec04142ab20845517cc1590);
+
+            
+        
+    
+            var circle_marker_99ddb9ef6fd84560a7b381e7cab8fafa = L.circleMarker(
+                [40.744048505122024,-73.88165622288388],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_793f38dadd434883ab0c7128338263c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_88eccb299e0d42019c672cb3f3454a60 = $('<div id="html_88eccb299e0d42019c672cb3f3454a60" style="width: 100.0%; height: 100.0%;">Elmhurst, Venue Count = 80</div>')[0];
+                popup_793f38dadd434883ab0c7128338263c5.setContent(html_88eccb299e0d42019c672cb3f3454a60);
+            
+
+            circle_marker_99ddb9ef6fd84560a7b381e7cab8fafa.bindPopup(popup_793f38dadd434883ab0c7128338263c5);
+
+            
+        
+    
+            var circle_marker_a1d81eec92b044ecb2cec5dff63a996c = L.circleMarker(
+                [40.744048505122024,-73.88165622288388],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff5f30",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ffb360",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_7a0eb0173b2a4865813640827a4f13fe = L.popup({maxWidth: '300'});
+
+            
+                var html_50611a8bf4604d70bddf428ef591bd0f = $('<div id="html_50611a8bf4604d70bddf428ef591bd0f" style="width: 100.0%; height: 100.0%;">Elmhurst, Venue Count = 80</div>')[0];
+                popup_7a0eb0173b2a4865813640827a4f13fe.setContent(html_50611a8bf4604d70bddf428ef591bd0f);
+            
+
+            circle_marker_a1d81eec92b044ecb2cec5dff63a996c.bindPopup(popup_7a0eb0173b2a4865813640827a4f13fe);
+
+            
+        
+    
+            var circle_marker_9b963f33311547dfbf3ed81f0d97e913 = L.circleMarker(
+                [40.88168737120521,-73.90281798724604],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ffb360",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#c0eb8d",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_8c6543eb470848e5910091cf7159e042 = L.popup({maxWidth: '300'});
+
+            
+                var html_598328bb5ed7408e9c93aa8809a370ec = $('<div id="html_598328bb5ed7408e9c93aa8809a370ec" style="width: 100.0%; height: 100.0%;">Kingsbridge, Venue Count = 66</div>')[0];
+                popup_8c6543eb470848e5910091cf7159e042.setContent(html_598328bb5ed7408e9c93aa8809a370ec);
+            
+
+            circle_marker_9b963f33311547dfbf3ed81f0d97e913.bindPopup(popup_8c6543eb470848e5910091cf7159e042);
+
+            
+        
+    
+            var circle_marker_05f2a702e7c542fb9cfa44be77120189 = L.circleMarker(
+                [40.722578244228046,-73.82087764933566],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_699c27460c324616b527599bc07d3e4e = L.popup({maxWidth: '300'});
+
+            
+                var html_2ca590735d9e42aea320e6da9aca7397 = $('<div id="html_2ca590735d9e42aea320e6da9aca7397" style="width: 100.0%; height: 100.0%;">Kew Gardens Hills, Venue Count = 20</div>')[0];
+                popup_699c27460c324616b527599bc07d3e4e.setContent(html_2ca590735d9e42aea320e6da9aca7397);
+            
+
+            circle_marker_05f2a702e7c542fb9cfa44be77120189.bindPopup(popup_699c27460c324616b527599bc07d3e4e);
+
+            
+        
+    
+            var circle_marker_a635a86ed2c54b41a6b9d0189daae2e9 = L.circleMarker(
+                [40.819014376988314,-73.84802729582735],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_cfcbd8d8f7ab41aa9a9b9e3428996503 = L.popup({maxWidth: '300'});
+
+            
+                var html_70de71f7c392430a9a88dcb998e8b287 = $('<div id="html_70de71f7c392430a9a88dcb998e8b287" style="width: 100.0%; height: 100.0%;">Castle Hill, Venue Count = 10</div>')[0];
+                popup_cfcbd8d8f7ab41aa9a9b9e3428996503.setContent(html_70de71f7c392430a9a88dcb998e8b287);
+            
+
+            circle_marker_a635a86ed2c54b41a6b9d0189daae2e9.bindPopup(popup_cfcbd8d8f7ab41aa9a9b9e3428996503);
+
+            
+        
+    
+            var circle_marker_a5a6710a023b4360b1e162b28e3b67be = L.circleMarker(
+                [40.85727710073895,-73.88845196134804],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff5f30",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_492bdeb270574a3ca4679484792268a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_9fa4c932cfaf48eb87aea2b646b4e0b2 = $('<div id="html_9fa4c932cfaf48eb87aea2b646b4e0b2" style="width: 100.0%; height: 100.0%;">Belmont, Venue Count = 100</div>')[0];
+                popup_492bdeb270574a3ca4679484792268a2.setContent(html_9fa4c932cfaf48eb87aea2b646b4e0b2);
+            
+
+            circle_marker_a5a6710a023b4360b1e162b28e3b67be.bindPopup(popup_492bdeb270574a3ca4679484792268a2);
+
+            
+        
+    
+            var circle_marker_859d50820f114f89bd87f8c948000e4a = L.circleMarker(
+                [40.82359198585534,-73.90150648943059],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_4d240b0fb93647eba727ac23f416a97d = L.popup({maxWidth: '300'});
+
+            
+                var html_3e88ce65e30c4bdc9d2d95a4f4b09d68 = $('<div id="html_3e88ce65e30c4bdc9d2d95a4f4b09d68" style="width: 100.0%; height: 100.0%;">Morrisania, Venue Count = 24</div>')[0];
+                popup_4d240b0fb93647eba727ac23f416a97d.setContent(html_3e88ce65e30c4bdc9d2d95a4f4b09d68);
+            
+
+            circle_marker_859d50820f114f89bd87f8c948000e4a.bindPopup(popup_4d240b0fb93647eba727ac23f416a97d);
+
+            
+        
+    
+            var circle_marker_b48fb9acdcee4810bffa64ca7a0948cb = L.circleMarker(
+                [40.84269615786053,-73.88735617532338],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_1937f5e3b6ba4fd0ab6d31c6722fb74f = L.popup({maxWidth: '300'});
+
+            
+                var html_4797147450a64e68b3d24b62b6f9128a = $('<div id="html_4797147450a64e68b3d24b62b6f9128a" style="width: 100.0%; height: 100.0%;">East Tremont, Venue Count = 18</div>')[0];
+                popup_1937f5e3b6ba4fd0ab6d31c6722fb74f.setContent(html_4797147450a64e68b3d24b62b6f9128a);
+            
+
+            circle_marker_b48fb9acdcee4810bffa64ca7a0948cb.bindPopup(popup_1937f5e3b6ba4fd0ab6d31c6722fb74f);
+
+            
+        
+    
+            var circle_marker_2a0fd1695f2e4a6ca3839f6e43f4aa83 = L.circleMarker(
+                [40.619219457722636,-74.01931375636022],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_f55ba52740f34215b6febc8f046f4045 = L.popup({maxWidth: '300'});
+
+            
+                var html_62c829e1620e449fb293d7b135e6e38e = $('<div id="html_62c829e1620e449fb293d7b135e6e38e" style="width: 100.0%; height: 100.0%;">Dyker Heights, Venue Count = 6</div>')[0];
+                popup_f55ba52740f34215b6febc8f046f4045.setContent(html_62c829e1620e449fb293d7b135e6e38e);
+            
+
+            circle_marker_2a0fd1695f2e4a6ca3839f6e43f4aa83.bindPopup(popup_f55ba52740f34215b6febc8f046f4045);
+
+            
+        
+    
+            var circle_marker_f84e3d30ecdc4a848c0151d4b75d60f3 = L.circleMarker(
+                [40.68988687915789,-73.8581104655432],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_3058a98ca4454958a26f18ed251e6a79 = L.popup({maxWidth: '300'});
+
+            
+                var html_21cba6b2019c447bbce64cec946e7b42 = $('<div id="html_21cba6b2019c447bbce64cec946e7b42" style="width: 100.0%; height: 100.0%;">Woodhaven, Venue Count = 23</div>')[0];
+                popup_3058a98ca4454958a26f18ed251e6a79.setContent(html_21cba6b2019c447bbce64cec946e7b42);
+            
+
+            circle_marker_f84e3d30ecdc4a848c0151d4b75d60f3.bindPopup(popup_3058a98ca4454958a26f18ed251e6a79);
+
+            
+        
+    
+            var circle_marker_2b70d0c0a5db4cef951f7904da735e9f = L.circleMarker(
+                [40.69444538522359,-73.75867603727717],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_50ec48350f3f4306bbd2f34b604ec0ea = L.popup({maxWidth: '300'});
+
+            
+                var html_0fdb92e57f78483989cbb235480a774c = $('<div id="html_0fdb92e57f78483989cbb235480a774c" style="width: 100.0%; height: 100.0%;">St. Albans, Venue Count = 18</div>')[0];
+                popup_50ec48350f3f4306bbd2f34b604ec0ea.setContent(html_0fdb92e57f78483989cbb235480a774c);
+            
+
+            circle_marker_2b70d0c0a5db4cef951f7904da735e9f.bindPopup(popup_50ec48350f3f4306bbd2f34b604ec0ea);
+
+            
+        
+    
+            var circle_marker_398c09a152214ef38bec8cf60d3515c4 = L.circleMarker(
+                [40.89470517661,-73.84720052054902],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_f99dc79000c04daea0694bc4d81c91b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_025de9e858ee434cbae5b8f01470809b = $('<div id="html_025de9e858ee434cbae5b8f01470809b" style="width: 100.0%; height: 100.0%;">Wakefield, Venue Count = 10</div>')[0];
+                popup_f99dc79000c04daea0694bc4d81c91b6.setContent(html_025de9e858ee434cbae5b8f01470809b);
+            
+
+            circle_marker_398c09a152214ef38bec8cf60d3515c4.bindPopup(popup_f99dc79000c04daea0694bc4d81c91b6);
+
+            
+        
+    
+            var circle_marker_5f54ed598782470e85f098aa84186127 = L.circleMarker(
+                [40.58689012678384,-73.94318640482979],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_d009d92c3d3740bfac3539744f3dc35b = L.popup({maxWidth: '300'});
+
+            
+                var html_ffd2bc5e3e22488fbbf4aa36cd3318af = $('<div id="html_ffd2bc5e3e22488fbbf4aa36cd3318af" style="width: 100.0%; height: 100.0%;">Sheepshead Bay, Venue Count = 24</div>')[0];
+                popup_d009d92c3d3740bfac3539744f3dc35b.setContent(html_ffd2bc5e3e22488fbbf4aa36cd3318af);
+            
+
+            circle_marker_5f54ed598782470e85f098aa84186127.bindPopup(popup_d009d92c3d3740bfac3539744f3dc35b);
+
+            
+        
+    
+            var circle_marker_e776bfd592ee408e976334a3865ba2a2 = L.circleMarker(
+                [40.85572707719664,-73.9104159619131],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_777dcd02b47f49259b864a80d9c8f3ec = L.popup({maxWidth: '300'});
+
+            
+                var html_32eeec69ca5041428f8e60ddf566c4ca = $('<div id="html_32eeec69ca5041428f8e60ddf566c4ca" style="width: 100.0%; height: 100.0%;">University Heights, Venue Count = 25</div>')[0];
+                popup_777dcd02b47f49259b864a80d9c8f3ec.setContent(html_32eeec69ca5041428f8e60ddf566c4ca);
+            
+
+            circle_marker_e776bfd592ee408e976334a3865ba2a2.bindPopup(popup_777dcd02b47f49259b864a80d9c8f3ec);
+
+            
+        
+    
+            var circle_marker_e554c70d11c04bef8bda0f39ff3e7371 = L.circleMarker(
+                [40.71680483014613,-73.7872269693666],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_a935ddc2a51046aa8034b4e17393e830 = L.popup({maxWidth: '300'});
+
+            
+                var html_2419603e87e04f8c9787512b5e9e53ee = $('<div id="html_2419603e87e04f8c9787512b5e9e53ee" style="width: 100.0%; height: 100.0%;">Jamaica Estates, Venue Count = 3</div>')[0];
+                popup_a935ddc2a51046aa8034b4e17393e830.setContent(html_2419603e87e04f8c9787512b5e9e53ee);
+            
+
+            circle_marker_e554c70d11c04bef8bda0f39ff3e7371.bindPopup(popup_a935ddc2a51046aa8034b4e17393e830);
+
+            
+        
+    
+            var circle_marker_8563b63a1d274b428a3a2eff9cdf1d12 = L.circleMarker(
+                [40.819754370594936,-73.90942160757436],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40ecd4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_0c3d0e5d0a59482dbb5afd70ac5100dc = L.popup({maxWidth: '300'});
+
+            
+                var html_d41263b3920046f3a3abe63793758b7f = $('<div id="html_d41263b3920046f3a3abe63793758b7f" style="width: 100.0%; height: 100.0%;">Melrose, Venue Count = 26</div>')[0];
+                popup_0c3d0e5d0a59482dbb5afd70ac5100dc.setContent(html_d41263b3920046f3a3abe63793758b7f);
+            
+
+            circle_marker_8563b63a1d274b428a3a2eff9cdf1d12.bindPopup(popup_0c3d0e5d0a59482dbb5afd70ac5100dc);
+
+            
+        
+    
+            var circle_marker_52099c0edc174e4d9b8bc0d32d80fb75 = L.circleMarker(
+                [40.59526001306593,-73.97347087708445],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40ecd4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_e6c8a89aea3c4523825a1fc9456bacfd = L.popup({maxWidth: '300'});
+
+            
+                var html_5fa791e40ca34cbe91d5ffc46b5385e4 = $('<div id="html_5fa791e40ca34cbe91d5ffc46b5385e4" style="width: 100.0%; height: 100.0%;">Gravesend, Venue Count = 28</div>')[0];
+                popup_e6c8a89aea3c4523825a1fc9456bacfd.setContent(html_5fa791e40ca34cbe91d5ffc46b5385e4);
+            
+
+            circle_marker_52099c0edc174e4d9b8bc0d32d80fb75.bindPopup(popup_e6c8a89aea3c4523825a1fc9456bacfd);
+
+            
+        
+    
+            var circle_marker_15639852a5c74aeab1c9d57b024d6de1 = L.circleMarker(
+                [40.847549063536334,-73.85040178030421],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_91a81b156b354eeabec939bdcf55324f = L.popup({maxWidth: '300'});
+
+            
+                var html_b9936688e9ad4ec29bbdd09c193d159b = $('<div id="html_b9936688e9ad4ec29bbdd09c193d159b" style="width: 100.0%; height: 100.0%;">Morris Park, Venue Count = 24</div>')[0];
+                popup_91a81b156b354eeabec939bdcf55324f.setContent(html_b9936688e9ad4ec29bbdd09c193d159b);
+            
+
+            circle_marker_15639852a5c74aeab1c9d57b024d6de1.bindPopup(popup_91a81b156b354eeabec939bdcf55324f);
+
+            
+        
+    
+            var circle_marker_29546644c04a4057a989597cb3b97599 = L.circleMarker(
+                [40.71093547252271,-73.81174822458634],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_10e1ddbc7f7646faa3f29a9b7e9ff0d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_a13dff4862424ec596df95387a780ad7 = $('<div id="html_a13dff4862424ec596df95387a780ad7" style="width: 100.0%; height: 100.0%;">Briarwood, Venue Count = 10</div>')[0];
+                popup_10e1ddbc7f7646faa3f29a9b7e9ff0d1.setContent(html_a13dff4862424ec596df95387a780ad7);
+            
+
+            circle_marker_29546644c04a4057a989597cb3b97599.bindPopup(popup_10e1ddbc7f7646faa3f29a9b7e9ff0d1);
+
+            
+        
+    
+            var circle_marker_4e5e07e4d0324e4bbdb111b3e53653be = L.circleMarker(
+                [40.85064140940335,-73.8320737824047],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_32a00976df3340d39a65a55b9ca472b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_b9e2d167894948bd866065da4c960adb = $('<div id="html_b9e2d167894948bd866065da4c960adb" style="width: 100.0%; height: 100.0%;">Pelham Bay, Venue Count = 46</div>')[0];
+                popup_32a00976df3340d39a65a55b9ca472b6.setContent(html_b9e2d167894948bd866065da4c960adb);
+            
+
+            circle_marker_4e5e07e4d0324e4bbdb111b3e53653be.bindPopup(popup_32a00976df3340d39a65a55b9ca472b6);
+
+            
+        
+    
+            var circle_marker_6b67858267114b0c9a72a86e21c0184b = L.circleMarker(
+                [40.837937822267286,-73.85600310535783],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_02367cd86a8d4a20b54391a9d35ed6af = L.popup({maxWidth: '300'});
+
+            
+                var html_cb65a9ac5f5249cd92c2f047c1f44a45 = $('<div id="html_cb65a9ac5f5249cd92c2f047c1f44a45" style="width: 100.0%; height: 100.0%;">Parkchester, Venue Count = 39</div>')[0];
+                popup_02367cd86a8d4a20b54391a9d35ed6af.setContent(html_cb65a9ac5f5249cd92c2f047c1f44a45);
+            
+
+            circle_marker_6b67858267114b0c9a72a86e21c0184b.bindPopup(popup_02367cd86a8d4a20b54391a9d35ed6af);
+
+            
+        
+    
+            var circle_marker_990512c42ae448279945ce8f292029f4 = L.circleMarker(
+                [40.59951870282238,-73.99875221443519],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#40ecd4",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_004fd67bf6eb4019a5349f4be93cb776 = L.popup({maxWidth: '300'});
+
+            
+                var html_38969bd598894a63b793951ad8896925 = $('<div id="html_38969bd598894a63b793951ad8896925" style="width: 100.0%; height: 100.0%;">Bath Beach, Venue Count = 45</div>')[0];
+                popup_004fd67bf6eb4019a5349f4be93cb776.setContent(html_38969bd598894a63b793951ad8896925);
+            
+
+            circle_marker_990512c42ae448279945ce8f292029f4.bindPopup(popup_004fd67bf6eb4019a5349f4be93cb776);
+
+            
+        
+    
+            var circle_marker_9efcecf6b0574774b015dc28db0ecd29 = L.circleMarker(
+                [40.89827261213805,-73.86731496814176],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#00b5eb",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#4062fa",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_f3fb12d5962d4aa9928143507e613833 = L.popup({maxWidth: '300'});
+
+            
+                var html_18821c87afbb45ed8cb3be422dcc8cab = $('<div id="html_18821c87afbb45ed8cb3be422dcc8cab" style="width: 100.0%; height: 100.0%;">Woodlawn, Venue Count = 24</div>')[0];
+                popup_f3fb12d5962d4aa9928143507e613833.setContent(html_18821c87afbb45ed8cb3be422dcc8cab);
+            
+
+            circle_marker_9efcecf6b0574774b015dc28db0ecd29.bindPopup(popup_f3fb12d5962d4aa9928143507e613833);
+
+            
+        
+    
+            var circle_marker_9035aa9f2c6546409db0639e6babe453 = L.circleMarker(
+                [40.84789792606271,-73.91967159119565],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_f2fdadebc93a4d4baa8c2cead8055b9f = L.popup({maxWidth: '300'});
+
+            
+                var html_fb1f4cfd416847568c46438717b51ae7 = $('<div id="html_fb1f4cfd416847568c46438717b51ae7" style="width: 100.0%; height: 100.0%;">Morris Heights, Venue Count = 12</div>')[0];
+                popup_f2fdadebc93a4d4baa8c2cead8055b9f.setContent(html_fb1f4cfd416847568c46438717b51ae7);
+            
+
+            circle_marker_9035aa9f2c6546409db0639e6babe453.bindPopup(popup_f2fdadebc93a4d4baa8c2cead8055b9f);
+
+            
+        
+    
+            var circle_marker_516e96e736544e2c99574b73e133fdf9 = L.circleMarker(
+                [40.88103887819211,-73.85744642974207],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#4062fa",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_a53eb4bb2bcd409196cb60c273b7e0a4 = L.popup({maxWidth: '300'});
+
+            
+                var html_331d2e0767fd4f8c85cc0919c2e3d9b0 = $('<div id="html_331d2e0767fd4f8c85cc0919c2e3d9b0" style="width: 100.0%; height: 100.0%;">Williamsbridge, Venue Count = 6</div>')[0];
+                popup_a53eb4bb2bcd409196cb60c273b7e0a4.setContent(html_331d2e0767fd4f8c85cc0919c2e3d9b0);
+            
+
+            circle_marker_516e96e736544e2c99574b73e133fdf9.bindPopup(popup_a53eb4bb2bcd409196cb60c273b7e0a4);
+
+            
+        
+    
+            var circle_marker_100cb46c5e3841e1ab982c2551ef87ad = L.circleMarker(
+                [40.87722415599446,-73.8793907395681],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40ecd4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_644d246de8704b72816e5c57a3ca519a = L.popup({maxWidth: '300'});
+
+            
+                var html_da87faf50d534f6094334e637c4a5f79 = $('<div id="html_da87faf50d534f6094334e637c4a5f79" style="width: 100.0%; height: 100.0%;">Norwood, Venue Count = 35</div>')[0];
+                popup_644d246de8704b72816e5c57a3ca519a.setContent(html_da87faf50d534f6094334e637c4a5f79);
+            
+
+            circle_marker_100cb46c5e3841e1ab982c2551ef87ad.bindPopup(popup_644d246de8704b72816e5c57a3ca519a);
+
+            
+        
+    
+            var circle_marker_55e31126dfd34feaacaec737b9e32cf8 = L.circleMarker(
+                [40.870185164975325,-73.8855121841913],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#40ecd4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#00b5eb",
+  "fillOpacity": 0.5,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_cb897c3e47d14c3f8679b7ab08dde804);
+            
+    
+            var popup_c17f88b61d744703ab1d33321c9c31fe = L.popup({maxWidth: '300'});
+
+            
+                var html_d31bfb8810a543d8adacb0f80fb91d3c = $('<div id="html_d31bfb8810a543d8adacb0f80fb91d3c" style="width: 100.0%; height: 100.0%;">Bedford Park, Venue Count = 35</div>')[0];
+                popup_c17f88b61d744703ab1d33321c9c31fe.setContent(html_d31bfb8810a543d8adacb0f80fb91d3c);
+            
+
+            circle_marker_55e31126dfd34feaacaec737b9e32cf8.bindPopup(popup_c17f88b61d744703ab1d33321c9c31fe);
+
+            
+        
+</script>
