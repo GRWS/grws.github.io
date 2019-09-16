@@ -113,6 +113,18 @@ A table displaying the seven most common venues per neighborhood can be seen by 
 
 
 
+## 4. Results <a name="Results"></a>
+The following table shows the averages for each of the features under consideration. It is easy to see from it, that Manhattan leads way on higher average rent prices, shorter commute times and largest number of venues per neighborhood, followed by Brooklyn, Queens and the Bronx.
+
+|Borough|Average Rent Price|Average Commute Time in Minutes|Average Number of Venues per Neighborhood|
+|--- |--- |--- |--- |
+|Manhattan|$3,650.10|27.52|80.48|
+|Brooklyn|$2,506.65|34.84|49.29|
+|Queens|2,086.22|56.89|42.59|
+|Bronx|1,829.59|61.83|27.82|
+
+
+
 Now adding some python code and trying to see if it would show the map!
 {% highlight python %}
 import folium
