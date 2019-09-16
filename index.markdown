@@ -109,7 +109,7 @@ Using the Foursquare location database Application Program Interface (API), it w
 
 The link to the interactive map pictured above is located at <https://grws.github.io/NYC_venue_count>
 
-
+A table displaying the seven most common venues per neighborhood can be seen by using the Venue Table link, located at header atop this page, or here: <https://grws.github.io/Venues/>
 
 
 
