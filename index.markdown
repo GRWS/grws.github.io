@@ -125,7 +125,7 @@ The following table shows the averages for each of the features under considerat
 
 To get a better picture for the results, it was decided to consider each borough individually. The four tables shown below display the results sorted by commute time, from lowest to highest, while also including bar charts to make comparisons between neighborhoods easier. 
 
-#### Manhattan Results Table
+### Manhattan Results Table
 
 ![Manhattan Table](https://user-images.githubusercontent.com/51925289/64991024-e83be480-d885-11e9-8643-9e66c6db0b3d.JPG)
 
@@ -134,11 +134,11 @@ To get a better picture for the results, it was decided to consider each borough
 ![BrooklynTable](https://user-images.githubusercontent.com/51925289/64991345-921b7100-d886-11e9-9ecf-5f902e59b5e8.JPG)
 
 
-#### Queens Results Table
+### Queens Results Table
 
 ![QueensTable](https://user-images.githubusercontent.com/51925289/64991423-b0816c80-d886-11e9-91af-78c606ee6c8a.JPG)
 
-#### Bronx Results Table
+### Bronx Results Table
 
 ![BronxTable](https://user-images.githubusercontent.com/51925289/64991476-c858f080-d886-11e9-89f0-e0ca4c0dab36.JPG)
 
