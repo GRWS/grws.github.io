@@ -5,7 +5,7 @@ permalink: /Venues/
 ---
 
 ### Most Common Venues Table
-The table below list the seven most common venue categories for each of the neighborhoods in cosideration. 
+The table below list the seven most common venue categories for each of the neighborhoods in consideration.  The table is displayed based on the neighborhood's alphabetical order.
 
 ![dataframe](https://user-images.githubusercontent.com/51925289/64810292-f91beb80-d54f-11e9-8ecb-7344428e1366.JPG)
 
