@@ -82,7 +82,6 @@ Depending upon the individual user some features could be more important than ot
 ![nyc_rent_prices](https://user-images.githubusercontent.com/51925289/64658985-63b51600-d3ee-11e9-83f4-2f3508ab9896.png)
 
 
-
 Also, it is worth noting that the biggest limiting factor for the whole data set was the number of neighborhoods for which average rental data was available.  Originally nearly two hundred neighborhoods, across all five boroughs, were considered, but only recent and reliable data, the latest being from April of 2019, was available for 103 of them, which are listed on the plot above. As shown, the data was incomplete for any neighborhoods in Long Island; some had rental data and venue data while some did not.  It was decided to exclude those neighborhoods altogether, so that a fair assessment could be made.
 
 
@@ -91,9 +90,10 @@ To better display each neighborhood location, along with their corresponding ave
 
 As the map below shows,  is clear that, with some exceptions, the neighborhoods closer to lower Manhattan's financial district command higher average rental prices, than other locations within New York City. 
 
-![nyc_rent_prices](https://user-images.githubusercontent.com/51925289/64983136-ae161700-d874-11e9-8d50-50f15853b964.JPG)
+![nyc_rent_prices](https://user-images.githubusercontent.com/51925289/64983772-27623980-d876-11e9-93c2-ad4893a043c2.JPG)
 
-The link to the interactive map pictured above is located at[NYC rents_map][NYC_rents_map]
+The link to the interactive map pictured above is located at [NYC rents map] https://github.com/GRWS/grws.github.io/blob/master/NYC_rents_map.html
+
 
 ![NYC_commute_pic2](https://user-images.githubusercontent.com/51925289/64222030-a70a0480-ce83-11e9-910d-61fa7f83bc39.JPG)
 
