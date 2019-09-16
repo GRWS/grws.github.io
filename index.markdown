@@ -75,7 +75,7 @@ Average Commute Time = (Time Morning Commute + Time Evening Commute) / 2
 ### 3.2 Feature Selection
 
 
-Depending upon the individual user some features could be more important than others.  As expected, compromises may have to be made in order to find a suitable choice of housing. A shorter commute might mean a significantly higher rent, or fewer desirable venues near the chosen location. With that in mind, different classifications were made individually for each of the selected features.  The first of which dealt with rental cost at all the different neighborhoods.  As the graph below shows, the average rent prices has a rent price ranging from `$1,500.00` per month in Bedford Park Neighborhood park of the Bronx to `$7,400.00` per month in Manhattan's Central Park South.
+Depending upon the individual user some features could be more important than others.  As expected, compromises may have to be made in order to find a suitable choice of housing. A shorter commute might mean a significantly higher rent, or fewer desirable venues near the chosen location. With that in mind, different classifications were made individually for each of the selected features.  The first of which dealt with rental cost at all the different neighborhoods.  As the graph below shows, average rent prices range from `$1,500.00` per month in Bedford Park Neighborhood park of the Bronx to `$7,400.00` per month in Manhattan's Central Park South.
 
 
 
