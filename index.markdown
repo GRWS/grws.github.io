@@ -97,20 +97,21 @@ The link to the interactive map pictured above is located at <https://grws.githu
 
 Next, the map below shows the commute times from the different neighborhoods to the financial district.  As it can be expected, with a few exceptions, the commute times are shorter from Manhattan neighborhoods than the ones from other boroughs.
 
-![NYC_commute_pic2](https://user-images.githubusercontent.com/51925289/64222030-a70a0480-ce83-11e9-910d-61fa7f83bc39.JPG)
+![nyc_commute_pic](https://user-images.githubusercontent.com/51925289/64987455-0ac9ff80-d87e-11e9-81ff-d027e429dbd6.JPG)
 
 The link to the interactive map pictured above is located at <https://grws.github.io/NYC_commute>
 
-[NYC_commute]: /NYC_commute
 
-Adding table below???
 
-|Month|Savings|Spending|
-|--- |--- |--- |
-|January|$100|$900|
-|July|$750|$1000|
-|December|$250|$300|
-|April|$400|$700|
+Using the Foursquare location database Application Program Interface (API), it was possible to retrieve the information about the most popular places in each of the neighborhoods under consideration.  The New York City metropolitan area enjoys a great variety and number of popular venues; however, when it comes to individual neighborhoods, the data showed that there is a significant variation on the number of popular venues nearby.  As a result, it can be inferred that a larger number of popular venues indicates a more desirable neighborhood, since there a larger variety of things to do closer to a prospective rental choice.  For simplicity purposes, the number of venues per neighborhood was capped at a maximum of 100.  As the map shows, some of the neighborhoods have very few popular venues.
+
+![nyc_venue_count_pic](https://user-images.githubusercontent.com/51925289/64987791-cf7c0080-d87e-11e9-8e5a-911c96741173.JPG)
+
+The link to the interactive map pictured above is located at <https://grws.github.io/NYC_venue_count>
+
+
+
+
 
 Now adding some python code and trying to see if it would show the map!
 {% highlight python %}
