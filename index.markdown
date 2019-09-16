@@ -82,7 +82,7 @@ Depending upon the individual user some features could be more important than ot
 ![nyc_rent_prices](https://user-images.githubusercontent.com/51925289/64658985-63b51600-d3ee-11e9-83f4-2f3508ab9896.png)
 
 
-Also, it is worth noting that the biggest limiting factor for the whole data set was the number of neighborhoods for which average rental data was available.  Originally nearly two hundred neighborhoods, across all five boroughs, were considered, but only recent and reliable data, the latest being from April of 2019, was available for 103 of them, which are listed on the plot above. As shown, the data was incomplete for any neighborhoods in Long Island; some had rental data and venue data while some did not.  It was decided to exclude those neighborhoods altogether, so that a fair assessment could be made.
+Also, it is worth noting that the biggest limiting factor for the whole data set was the number of neighborhoods for which average rental data was available.  Originally nearly two hundred neighborhoods, across all five boroughs, were considered, but only recent and reliable data, the latest being from April of 2019, was available for 103 of them, which are listed on the plot above. As shown, the data was incomplete for any neighborhoods in Long Island; some had rental data or venue data while most did not.  It was decided to exclude those neighborhoods altogether, so that a fair assessment could be made.
 
 
 ### 3.3 Selected Features Maps
