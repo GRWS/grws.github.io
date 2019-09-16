@@ -151,5 +151,5 @@ Needless to say, the order of importance of any of the three selected features c
 As mentioned earlier, it was not possible to get accurate average rental data for a significant number of neighborhoods within the five boroughs, and for that reason the whole borough of Staten Island had to be excluded altogether. Something else to consider, is that the rental data presented is an average for any of the neighborhoods and individual rental prices can vary widely.
 
 
-## 6. Conclussion <a name="Conclussion"></a>
+## 6. Conclusion <a name="Conclusion"></a>
 Relocating to a new city is never an easy task, and it comes both challenges and opportunities.  Though having the ability to compare relevant information, regarding new prospective neighborhoods, does not eliminate the uncertainty regarding a new location; it can make the process just a bit easier.
