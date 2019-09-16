@@ -62,7 +62,7 @@ Due to the wide popularity and accessibility of the subway, and that surface spe
 [Mobility ReportJune 2018 - NYC.gov]
 <http://www.nyc.gov/html/dot/downloads/pdf/mobility-report-2018-print.pdf>
 
-Regarding the commute times, they are several online tools which are able to show, on real-time, the time it takes to commute from different city areas, however their accuracy proved to be poor when compared to real-time data from google maps.  It is possible, the these tools were relying on information provided by all kinds of commuting means used in New York City, which include walking, driving or hiring a taxi cab or riding sharing service, biking, bus, subway and, in some cases, ferries. One of such tools can be found via the following link:
+Regarding the commute times, they are several online tools which are able to show, in real-time, the time it takes to commute from different city areas, however their accuracy proved to be poor when compared to real-time data from google maps.  It is possible, the these tools were relying on information provided by all kinds of commuting means used in New York City, which include walking, driving or hiring a taxi cab or riding sharing service, biking, bus, subway and, in some cases, ferries. One of such tools can be found via the following link:
 <https://www.mapnificent.net/newyork/#12/40.7290/-73.9980/900/40.7290/-73.9980/900/40.8117/-74.0211>
 
 Since the commute information from each individual neighborhood, during rush hour, wasn't readily readily available, it was necessary to collect commuting times individually from Google Maps, so that a comprehensive time, as well as accurate, data table could be created.  The times were calculated based upon the following:
