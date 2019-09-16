@@ -82,9 +82,18 @@ Depending upon the individual user some features could be more important than ot
 ![nyc_rent_prices](https://user-images.githubusercontent.com/51925289/64658985-63b51600-d3ee-11e9-83f4-2f3508ab9896.png)
 
 
-Also, it is worth noting that the biggest limiting factor for the whole data set was the number of neighborhoods for which average rental data was available.  Originally nearly two hundred neighborhoods, across all five boroughs, were considered, but only recent and reliable data, the latest being from April of 2019, was available for 103 of them, which are listed on the plot above.
 
-Additionally, as depicted on the Folium library map generated below, by using the longitude and latitude from all the selected neighborhoods, is clear that, with some exceptions, rent prices closer to lower Manhattan's financial district are higher than in other locations within New York City. The map uses color and size to highlight the different ranges for the average rent price in the different neighborhoods.
+Also, it is worth noting that the biggest limiting factor for the whole data set was the number of neighborhoods for which average rental data was available.  Originally nearly two hundred neighborhoods, across all five boroughs, were considered, but only recent and reliable data, the latest being from April of 2019, was available for 103 of them, which are listed on the plot above. As shown, the data was incomplete for any neighborhoods in Long Island; some had rental data and venue data while some did not.  It was decided to exclude those neighborhoods altogether, so that a fair assessment could be made.
+
+
+### 3.3 Selected Features Maps
+To better display each neighborhood location, along with their corresponding average rental price, commute times and number of venues, the Python Folium library was used to generate three individual maps. The individual neighborhood locations are shown on the map by using the latitude and longitude information from the GEOjson file mentioned earlier in the Data section.  The difference between the overall data values gathered is displayed both by the color and size of the map markers, with larger circles denoting higher values.  To see the interactive version of the maps, please follow the links provided for each of them below their respective pictures. Clicking on the circles displays the individual neighborhood name, along with the numerical value related to that map related feature.
+
+As the map below shows,  is clear that, with some exceptions, the neighborhoods closer to lower Manhattan's financial district command higher average rental prices, than other locations within New York City. 
+
+![nyc_rent_prices](https://user-images.githubusercontent.com/51925289/64983136-ae161700-d874-11e9-8d50-50f15853b964.JPG)
+
+The link to the interactive map pictured above is located at[NYC rents_map][NYC_rents_map]
 
 ![NYC_commute_pic2](https://user-images.githubusercontent.com/51925289/64222030-a70a0480-ce83-11e9-910d-61fa7f83bc39.JPG)
 
