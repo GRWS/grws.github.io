@@ -24,7 +24,7 @@ title:  Home
 ## 1. Introduction <a name="introduction"></a>
 
 Moving to a different city comes with a number of challenges, and one of the biggest ones is to find the right place to live.  The choice of which neighborhood to live, within the new city, comes with a number of important questions. A few of the ones that come to mind are: 
-* How much it will housing cost? 
+* How much will housing cost? 
 * How much time the daily commute will take? 
 * What kind of venues are near it? 
 
@@ -55,7 +55,7 @@ The choice of making the Wall Street financial district the target location for 
 [The Geography of Jobs: NYC Metro Region Econnomic Snapshot (July 2018)]
 <https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=2ahUKEwi295LHwZLkAhULsZ4KHQESBwIQFjAIegQIARAC&url=https://www1.nyc.gov/assets/planning/download/pdf/about/dcp-priorities/data-expertise/nyc-geography-jobs-0718.pdf&usg=AOvVaw3z8DN3u6trL_TVPZjJDR9L>
 
-Also, according to a study performed by the Center for Urban Future in 2014, in spite that New Yorkers are likely to work on their home borough, Manhattan is still the city's employment center.
+Also, according to a study performed by the Center for Urban Future in 2014, in spite of the fact that New Yorkers are likely to work in their home borough, Manhattan is still the city's employment center.
 <https://nycfuture.org/data/fast-city-slow-commute>
 
 Due to the wide popularity and accessibility of the subway, and that surface speeds have decreased over time, particulartly in Manhattan, this project uses the subway as the most consistent and reliable means of commuting. A link to the Mobility Report, from the NYC Department of Transportation discussing these findings can found here:
